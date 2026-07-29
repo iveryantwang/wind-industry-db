@@ -581,7 +581,7 @@ function switchTab(key){
   render();
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+function boot(){
   $("#tabs").innerHTML = DATA.map((s,i) =>
     '<button class="tab" role="tab" data-k="'+esc(s.key)+'" aria-selected="'+(i===0)+'">'
     + esc(s.title) + '<span class="n">'+s.rows.length+"</span></button>").join("");
@@ -604,7 +604,17 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   if (cur) switchTab(cur);
-});
+}
+
+/* 不要只监听 DOMContentLoaded：如果这段脚本是在文档解析完之后才执行的
+   （被注入、被延迟加载、或用户从别的页面软跳转回来），那个事件早就过去了，
+   看板会停在「有标题有统计、但没有 Tab 和表格」的半死状态。
+   所以先查一次 readyState，已经解析完就立刻启动。 */
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", boot);
+} else {
+  boot();
+}
 """
 
 PAGE = """<!DOCTYPE html>

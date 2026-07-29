@@ -9,7 +9,13 @@ const config: QuartzConfig = {
   configuration: {
     pageTitle: "全球风电行业数据库",
     pageTitleSuffix: "",
-    enableSPA: true,
+    // ⚠️ 必须保持 false。
+    // 开启 SPA 后，Quartz 会用 fetch 抓回页面再塞进当前文档，而不是真正跳转。
+    // 首页（index.html）是 build_dashboard.py 生成的独立页面，它的交互全靠内联
+    // <script>：SPA 注入的内联脚本不会执行，DOMContentLoaded 也早已触发过，
+    // 结果就是从笔记站点点回首页时，Tab 栏和表格全空、搜索框连 placeholder 都没有。
+    // 代价只是页面切换变成整页加载，这个站体量很小，感知不到。
+    enableSPA: false,
     enablePopovers: true,
     analytics: null,              // 内部资料，不接入任何分析
     locale: "zh-CN",
