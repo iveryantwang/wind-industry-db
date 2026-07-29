@@ -1,0 +1,36 @@
+# Obsidian 的本机配置目录 —— 纯编辑器设置，对网站毫无用处。
+# 整个排除的三个理由：
+#   1. plugins/ 下是第三方插件的打包代码（单个近 3MB），不该由本仓库分发
+#   2. 插件的 data.json 可能存 API key，公开仓库里是安全隐患
+#   3. workspace.json 是你的窗口布局，每次开 Obsidian 都会变，只会产生噪音提交
+.obsidian/
+
+# Excel 导出物与锁文件 —— 仓库只存 Markdown 源，Excel 每次本地重新生成
+*.xlsx
+~$*
+.~lock.*#
+
+# 本地看板 —— 含 07-战略判断，绝不能进公开仓库。
+# 线上看板由 GitHub Actions 在构建时另行生成（默认不含 07）。
+看板*.html
+dashboard*.html
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 运行日志
+99-系统/日志/
+
+# Claude 插件的会话记录与本机设置 —— 会累积对话标题和历史，公开仓库里不该有
+.claudian/
+
+# Obsidian 随手新建的空文件（Base 视图、空白日记等）
+未命名*.base
+未命名*.md
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini
+.trash/

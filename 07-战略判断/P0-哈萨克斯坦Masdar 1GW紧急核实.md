@@ -1,0 +1,34 @@
+---
+type: strategy
+priority: "P0"
+owner_party: "Masdar / W Solar / Qazaq Green Power / KIDF"
+region: "中东非"
+country: "哈萨克斯坦"
+project: "Jambyl 1GW 风电 + 300MW BESS"
+capacity_mw: 1000
+action: "立即核实整机是否已定标；查 EBRD/AIIB 项目文件中的采购安排"
+rationale: "1GW 中亚最大单体项目，2026 年 6 月底已破土动工，整机若未定则窗口极紧；多边金融机构项目采购文件通常公开可查"
+deadline: "2026-08-10"
+status: "待启动"
+manual: false
+publish: true
+updated: 2026-07-29
+---
+
+**2026-07-29 复核：判断维持 P0，窗口只剩 12 天。** 当日检索哈萨克斯坦风电项目与融资动向，**7 月 28 日无新增信息**，Jambyl 1GW 的整机归属仍未公开。复核中确认 AIIB 侧该项目仍挂在「proposed」状态（Kazakhstan: Zhambyl 1GW Wind and 300MW BESS Project），**说明多边贷款尚未最终批准 —— 这反而是好消息：整机采购通常要等融资关闭，窗口可能比破土动工的表象更宽。** 但也意味着 AIIB 项目文件里的采购安排页是目前最可能查到整机口径的公开渠道，应优先查这一处而非找 Masdar。
+
+对照另一条 Mirny 1GW（[[哈萨克斯坦-TotalEnergies-Mirny]]）：EBRD 已组织 5.48 亿美元 A/B 贷（A 贷 2.5 亿、B 贷 2.98 亿，含建行、卡塔尔国民银行、法兴、渣打），融资结构已落定，其整机窗口比 Jambyl 更紧。两条应一并核。
+
+## 判断依据
+
+- 1GW 风电 + 300MW 储能，投资约 14 亿美元，EBRD 组织 5.48 亿美元融资，AIIB 参与
+- **已于 2026-06-30 破土动工** —— 若整机未定，是极罕见的窗口；若已定，需立刻知道是谁
+- 多边金融机构（EBRD/AIIB）支持项目的采购流程通常公开、有招标文件可查，透明度高于纯商业项目
+- 哈萨克斯坦同期还有 TotalEnergies Mirny（2026-03 施工）与中哈合资 500MW（2026-04 开工）—— 市场正在集中放量
+
+## 建议行动
+
+- [ ] **本周**：查 EBRD 与 AIIB 项目页面的采购公告与已签合同清单
+- [ ] 核实 Masdar 是否有集团级整机框架协议（Masdar 在中东有既有偏好）
+- [ ] 确认哈萨克斯坦本地化率要求
+- [ ] 一并摸排 TotalEnergies Mirny 的整机归属

@@ -1,0 +1,164 @@
+name: Deploy Wind DB site
+
+# 站点结构：
+#   /                       → 数据看板（build_dashboard.py 生成的单文件 HTML，七张可筛选的表）
+#   /总览.html              → 00-总览
+#   /02-客户与项目/xxx.html → 各条笔记详情页（Quartz 渲染）
+#
+# 07-战略判断 默认**不发布**（含我方投标策略与竞对判断）。
+# 要发布：仓库 Settings → Secrets and variables → Actions → Variables
+#         新建 PUBLISH_STRATEGY = 1
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      PUBLISH_STRATEGY: ${{ vars.PUBLISH_STRATEGY }}
+    steps:
+      - name: Checkout content (this repo)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          path: vault
+
+      - name: Checkout Quartz
+        uses: actions/checkout@v4
+        with:
+          repository: jackyzha0/quartz
+          ref: v4
+          path: quartz
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Copy site config into Quartz
+        run: |
+          cp vault/99-系统/site/quartz.config.ts   quartz/quartz.config.ts
+          cp vault/99-系统/site/quartz.layout.ts   quartz/quartz.layout.ts
+
+      - name: Set baseUrl
+        env:
+          SITE_BASEURL: ${{ vars.SITE_BASEURL }}
+        run: |
+          BASE="${SITE_BASEURL}"
+          if [ -z "$BASE" ]; then
+            # 未设自定义域名时，按 GitHub Pages 项目站的默认地址推导
+            BASE="${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}"
+          fi
+          echo "baseUrl = $BASE"
+          sed -i "s|baseUrl: \".*\"|baseUrl: \"$BASE\"|" quartz/quartz.config.ts
+
+      - name: Stage publishable content
+        run: |
+          set -e
+          mkdir -p quartz/content
+          SECTIONS=("01-每日新闻" "02-客户与项目" "03-风电政策" "04-竞争对手" "05-技术方案" "06-投资财务")
+          if [ "$PUBLISH_STRATEGY" = "1" ]; then
+            echo "::warning::PUBLISH_STRATEGY=1 —— 07-战略判断 将被公开发布"
+            SECTIONS+=("07-战略判断")
+          else
+            echo "07-战略判断 已跳过（内部资料）"
+          fi
+          for d in "${SECTIONS[@]}"; do cp -r "vault/$d" quartz/content/; done
+
+          # 00-总览 放在 /总览，首页留给数据看板
+          cp vault/00-总览.md quartz/content/总览.md
+          mkdir -p quartz/content/说明
+          cp vault/99-系统/使用说明.md quartz/content/说明/
+          cp vault/99-系统/字段规范.md quartz/content/说明/
+          cp vault/99-系统/更新日志.md quartz/content/说明/ 2>/dev/null || true
+
+      - name: Strip Dataview blocks
+        run: |
+          python3 - <<'PY'
+          import os, re
+          pat = re.compile(r"\n---\n\n## 交互式查询.*?```\n", re.S)
+          for dirpath, _, files in os.walk("quartz/content"):
+              for fn in files:
+                  if not fn.endswith(".md"):
+                      continue
+                  p = os.path.join(dirpath, fn)
+                  t = open(p, encoding="utf-8").read()
+                  n = pat.sub("\n", t)
+                  if n != t:
+                      open(p, "w", encoding="utf-8").write(n)
+                      print("stripped dataview:", p)
+          PY
+
+      - name: Unlink references to unpublished 07-战略判断
+        if: ${{ vars.PUBLISH_STRATEGY != '1' }}
+        run: |
+          python3 - <<'PY'
+          import os, re
+          # 1) [[P0-xxx]] / [[P0-xxx|别名]] → 纯文本，避免站上出现死链
+          link = re.compile(r"\[\[(P[012]-[^\]|]+?)(?:\\?\|([^\]]+))?\]\]")
+          n = 0
+          for dirpath, _, files in os.walk("quartz/content"):
+              for fn in files:
+                  if not fn.endswith(".md"):
+                      continue
+                  p = os.path.join(dirpath, fn)
+                  t = open(p, encoding="utf-8").read()
+                  new = link.sub(lambda m: m.group(2) or m.group(1), t)
+                  # 2) 总览里的导航行与统计行整行删掉（指向不存在的 07 索引页）
+                  if fn == "总览.md":
+                      new = "\n".join(
+                          ln for ln in new.split("\n")
+                          if not (ln.lstrip().startswith("|") and "战略判断" in ln)
+                      )
+                  if new != t:
+                      open(p, "w", encoding="utf-8").write(new)
+                      n += 1
+          print("cleaned strategy refs in %d files" % n)
+          PY
+
+      - name: Build Quartz
+        working-directory: quartz
+        run: |
+          npm ci
+          npx quartz build
+
+      - name: Build dashboard (site homepage)
+        run: |
+          set -e
+          ARGS=""
+          [ "$PUBLISH_STRATEGY" = "1" ] && ARGS="--with-strategy"
+          python3 vault/99-系统/scripts/build_dashboard.py vault \
+            -o quartz/public/index.html $ARGS
+          # GitHub Pages 默认跑 Jekyll，会吞掉下划线开头的文件
+          touch quartz/public/.nojekyll
+          echo "--- 站点产物 ---"
+          ls quartz/public | head -20
+          du -sh quartz/public
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: quartz/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
