@@ -1,0 +1,56 @@
+---
+type: project
+region: 欧洲
+country: 罗马尼亚
+customer: "Scatec ASA（业主）/ OX2（开发与 EPC 管理）"
+project: "Urleasca 陆上风电（布勒伊拉县，77MW）"
+description: "OX2 开发的罗马尼亚东南部 77MW 陆上风电项目，2026-08-03 宣布 Nordex 供 11 台 N175/6.X 并签 35 年长周期运维；同日 OX2 将项目 100% 售予 Scatec ASA。已有政府长期 CfD。"
+capacity_mw: 77
+turbine_count: 11
+turbine_model: "Nordex N175/6.X"
+unit_mw: 7
+segment: 陆上
+status: 已中标
+oem: Nordex
+cod_year: 2028
+capex: ""
+owner_contact: ""
+opportunity: 已失单
+manual: false
+publish: true
+first_logged: 2026-08-04
+updated: 2026-08-04
+---
+
+## 项目简介
+
+Urleasca 风电场位于罗马尼亚东南部布勒伊拉（Brăila）县 Urleasca 村附近，距布加勒斯特东北约 150 公里，装机 77MW。项目由瑞典开发商 OX2 开发至 ready-to-build 状态，已锁定罗马尼亚政府长期差价合约（CfD）。
+
+2026-08-03 同日宣布两件事：
+
+- Nordex 获整机订单，供货并安装 **11 台 N175/6.X**，另签 **35 年 Premium Service** 长周期运维
+- OX2 将该 ready-to-build 项目 **100% 出售给挪威 Scatec ASA**，OX2 保留工程与施工管理职责
+
+容量口径说明：11 台 × 7.0MW（N175/6.X 平台标称上限）= 77MW，与来源披露的 77MW 一致；N175/6.X 为可变功率平台，实际单机功率以合同为准，本条 `unit_mw` 按 7 记录。
+
+施工计划 2026 年三季度开工，2028 年下半年投运。
+
+## 整机采购状态
+
+**已失单 —— 整机由 Nordex 拿下，且附 35 年运维长约，全生命周期机会关闭。**
+
+关键教训是**定标时点**：整机在项目还归 OX2、尚未交割给 Scatec 时就已锁定。盯最终业主（Scatec）无效，必须在开发商（OX2）把项目做到 RTB 之前介入。
+
+## 关键时间点
+
+| 时间 | 事件 |
+|---|---|
+| 2026-08-03 | Nordex 整机订单公布；OX2 → Scatec 交割完成 |
+| 2026 Q3 | 计划开工 |
+| 2028 H2 | 计划投运 |
+
+## 沟通记录
+
+## 待办
+- [ ] 摸清 OX2 在罗马尼亚/波兰/芬兰的在手开发管道，标出尚在 RTB 之前的项目清单与预计整机定标月份
+- [ ] 核实 Nordex 在罗马尼亚「近数月逾 500MW」具体是哪几个项目、分别是谁的业主，判断该国陆上是否已被单一供应商锁定
