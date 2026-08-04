@@ -1,0 +1,78 @@
+---
+type: project
+region: 亚太
+country: 日本
+customer: "OKAOGE 联合体（JERA Nex bp、电源开发 J-POWER、东北电力、伊藤忠商事）"
+project: "男鹿・潟上・秋田（Oga Katagami Akita）315MW 海上风电"
+description: "日本秋田县男鹿市・潟上市・秋田市外海 315MW 固定式海上风电。2026-08-03 由必维日本（Bureau Veritas Japan）签发发电设备认证，完成对日本技术标准的符合性评定，达成《电气事业法》工事计划前提。整机为 Vestas，单桩基础由鹿岛建设设计，计划 2028-06 投运。"
+capacity_mw: 315
+turbine_count: 21
+turbine_model: "Vestas V236-15.0 MW（15MW 级）"
+unit_mw: 15
+segment: 海上
+status: 在建
+oem: Vestas
+cod_year: 2028
+capex: ""
+owner_contact: ""
+opportunity: 低
+manual: false
+publish: true
+first_logged: 2026-08-04
+updated: 2026-08-04
+---
+
+## 项目简介
+
+秋田县男鹿市、潟上市、秋田市外海的 315MW 固定式海上风电，开发联合体 **OKAOGE** 由 JERA Nex bp、电源开发（J-POWER）、东北电力、伊藤忠商事组成。
+
+2026-08-03，必维日本（Bureau Veritas Japan）在完成场址条件评估、设计基准评价、整体载荷分析与支撑结构设计四项工作后，向联合体签发**发电设备认证证书**，确认设计与认证流程完成、符合日本法定要求，标志着《电气事业法》下工事计划所需的前置条件达成。
+
+联合体自述项目的三个「第一」：
+
+1. 日本**一般海域**中通过公开招标授予的**首个固定式**海上风电项目
+2. 日本首个使用**单机 10MW 以上**机组的海上风电项目
+3. 全球首个**按抗震要求设计的 15MW 级固定式**海上风电项目
+
+分工：
+- 单桩基础设计 —— 鹿岛建设（Kajima），联合 小堀铎二研究所（Kobori Research Complex）与 COWI A/S
+- 风机与塔筒设计 —— **Vestas Japan**
+- 业主工程师 —— A.O.V. Arup & Partners Japan
+
+计划 **2028 年 6 月**投运。
+
+**台数口径说明：** 315MW / 15MW 级 ≈ 21 台，本条 `turbine_count` 按此推算填 21，机型按 Vestas 15MW 级平台（V236-15.0 MW）填写；报道原文仅称「超过 10MW」「15MW 级」，未列台数与具体型号，如后续见到一手披露须修正。
+
+## 整机采购状态
+
+**整机已定 —— Vestas，2024-12-27 即已公开供货安排，无我方机会。** 本条录入价值不在项目本身，而在两点：
+
+1. **抗震设计门槛已被 Vestas 抢先跨过。** 全球首个按抗震要求设计的 15MW 级固定式机组由 Vestas 完成认证 —— 日本、台湾、菲律宾等地震带市场今后的招标，业主与认证机构都会以此为参照。我方若无经第三方认证的抗震设计包，在这些市场的技术标会直接失分（见 [[15MW级抗震设计固定式海上机组]]）
+2. **日本一般海域首个固定式公开招标项目的完整认证路径已跑通。** Round 1–4 后续项目的认证流程将复用这套路径（必维日本 + 场址条件评估 + 整体载荷分析 + 支撑结构设计），提前对齐可以缩短我方在日本的认证周期
+
+## 关键时间点
+
+| 时间 | 事件 |
+|---|---|
+| 2024-12-27 | Vestas 公开将为该 315MW 项目供货 |
+| 2025-10-24 | 鹿岛建设获基础工程 |
+| 2026-05-29 | DEME 获日本海上风电施工合同（同期日本海上风电施工发包） |
+| 2026-08-03 | 必维日本签发发电设备认证证书 |
+| 2028-06 | 计划投运 |
+
+## 沟通记录
+
+## 待办
+- [ ] 取得必维日本对该项目的认证范围清单，比对我方机组在抗震载荷项上的缺口
+- [ ] 核实台数与具体机型（现为按容量推算），并核实是否为 V236-15.0 MW
+- [ ] 结合 [[日本-Round4拍卖规则调整与再招标]] 判断日本下一轮有哪些整机未定的标的
+
+## 关联
+- 技术侧：[[15MW级抗震设计固定式海上机组]]
+- 政策侧：[[日本-Round4拍卖规则调整与再招标]]
+- 竞对侧：Vestas 在亚太海上市场的技术先发
+
+## 来源
+- <https://www.renews.biz/offshore-wind/certification-milestone-for-315mw-japan-offshore-site/>（2026-08-03）
+- <https://www.renews.biz/offshore-wind/vestas-to-supply-315mw-japanese-wind-farm/>（2024-12-27）
+- <https://www.renews.biz/offshore-wind/kajima-wins-foundations-gig-for-japanese-wind-farm/>（2025-10-24）

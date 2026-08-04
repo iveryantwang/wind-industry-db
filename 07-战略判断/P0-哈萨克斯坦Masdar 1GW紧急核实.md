@@ -66,3 +66,15 @@ updated: 2026-07-29
 - **选择 B：** 若确认无人跟进，把 `status` 改为 `已放弃` 并写明原因（如哈国本地产能门槛未解决前核实无行动价值 —— 这正是 [[P0-哈萨克斯坦本地产能门槛应对]] 提出的前置判断）。**明确放弃比让 P0 静默过期更有价值，至少库里留下了决策痕迹。**
 
 `deadline` 2026-08-10 维持不变，`status` 维持 `待启动`。**这是本次复核中最需要 Zhenyu 今天做决定的一条。**
+
+---
+
+**2026-08-04 复核（五国专项）：无 8-03 新增，核实动作仍未闭环，P0 保持。**
+
+当日检索哈萨克斯坦风电项目与融资，未见 8-03 新增披露。可交叉确认的既有事实（均为既往信息，非新增）：EBRD 为 Aktas Energy 的 Mirny 1GW + 300MW/600MWh 储能项目组织最高 5.48 亿美元 A/B 贷（A 贷 2.5 亿由 EBRD 直贷，B 贷 2.98 亿由中国建设银行、卡塔尔国家银行、法国兴业、渣打等联合安排）；TotalEnergies 称项目总投资 12 亿美元、约 75% 外部融资，2026-04 已做出 FID。
+
+**注意一处需要辨别的口径：** AIIB 项目库中另有一条「Kazakhstan: Zhambyl 1GW Wind and 300MW BESS Project」（2026 拟议）。Mirny 本身也位于江布尔（Zhambyl）州，两者**可能是同一项目在不同机构的不同命名**，也可能确为两个项目。本库现有 [[哈萨克斯坦-Masdar-Jambyl 1GW风储]] 与 [[哈萨克斯坦-TotalEnergies-Mirny]] 两条并存，是否重复须一并核实 —— 若为同一项目，按「只增不删」规则应合并到已有条目并注明分歧，不删除任何一条。
+
+来源：
+- <https://www.ebrd.com/home/news-and-events/news/2026/ebrd-invests-us--250-million-in-kazakhstan-s-wind-farm-with-stor.html>
+- <https://www.aiib.org/en/projects/details/2026/proposed/kazakhstan-zhambyl-1gw-wind-and-300mw-bess-project.html>
