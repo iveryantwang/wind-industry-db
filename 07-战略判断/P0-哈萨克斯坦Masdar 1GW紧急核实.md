@@ -12,7 +12,7 @@ deadline: "2026-08-10"
 status: "待启动"
 manual: false
 publish: true
-updated: 2026-07-29
+updated: 2026-08-05
 ---
 
 **⚠️ 2026-07-30 复核：判断维持 P0，窗口剩 11 天，但前提假设已动摇。** 今日查实 [[哈萨克斯坦-TotalEnergies-Mirny]] 的整机早在 **2025 年 10 月**就已由远景（124 台）与三一（26 台）签走 —— 比破土动工早了近半年，而本库直到今天才发现。**这直接推翻了本条「破土动工时整机可能未定」的乐观假设**：哈国项目的整机定标普遍早于施工，且不公开发布。
@@ -78,3 +78,22 @@ updated: 2026-07-29
 来源：
 - <https://www.ebrd.com/home/news-and-events/news/2026/ebrd-invests-us--250-million-in-kazakhstan-s-wind-farm-with-stor.html>
 - <https://www.aiib.org/en/projects/details/2026/proposed/kazakhstan-zhambyl-1gw-wind-and-300mw-bess-project.html>
+
+
+---
+
+**🔴 2026-08-05 五国例行复核（哈萨克斯坦）：判断维持 P0，`deadline` 2026-08-10 只剩 5 天，`status` 仍为 `待启动` —— 本条即将到期且未启动。**
+
+当日检索哈萨克斯坦 Jambyl / Zhambyl 1GW 风储项目动向，**未发现 8 月 4 日的新增信息**，整机归属仍未见任何公开披露。
+
+**唯一可确认的进展是融资侧：AIIB 项目库中「Kazakhstan: Zhambyl 1GW Wind and 300MW BESS Project」仍列为 proposed（拟议）状态**，尚未进入 approved。这一点值得记 —— 本条 `action` 的第二项是「查 EBRD/AIIB 项目文件中的采购安排」，**AIIB 项目尚在 proposed 阶段，意味着其采购计划文件（Procurement Plan）很可能尚未公开，这解释了为何连续核实无果。**
+
+**但这不等于整机未定。** 本条 07-30 复核已经记下这个教训：[[哈萨克斯坦-TotalEnergies-Mirny]] 的整机早在 2025-10 即由远景与三一签走，比破土动工早近半年且从未公开。**Jambyl 已于 2026 年 6 月底破土动工 —— 按 Mirny 的规律，其整机大概率在 2025 年底至 2026 年初就已定标。**
+
+**处理建议：** `deadline` 08-10 到期时，若仍无法核实，本条应直接改 `status` 为 `已完成`（核实结论为「无法核实，按已定标处理」），而不是继续挂着。理由是：
+
+- 项目已开工，整机窗口按哈国规律早已关闭
+- 继续挂 P0 会占用本应给到真实开放窗口的注意力
+- 哈萨克斯坦的战略判断应收敛到 [[P0-哈萨克斯坦本地产能门槛应对]] 这一条上 —— **该条问的是「哈国是否还值得投入」，这才是当前真正需要 Zhenyu 决策的问题**
+
+同时建议：把 [[哈萨克斯坦-Masdar-Jambyl 1GW风储]] 的 `opportunity` 从 `高` 下调至 `中`，并在正文注明「已开工且整机无法核实，按哈国既往规律大概率已定标」。**本次自动更新不擅改该字段，留待 Zhenyu 确认。**

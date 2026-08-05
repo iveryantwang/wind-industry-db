@@ -6,9 +6,9 @@ customer: "Cierco Energy"
 project: "Llŷr 1 与 Llŷr 2 漂浮式示范（凯尔特海 / 威尔士彭布罗克郡外海）"
 description: "Cierco 在威尔士西南外海约 30km 的两个 100MW 漂浮式测试与示范项目。2026-08-03 与英国皇家财产局（Crown Estate）签署海域租赁协议（AfL）；2026-07 已获自然资源威尔士（NRW）施工海事许可；Section 36 同意待威尔士部长于今夏内批复。整机供应商尚未公开。"
 capacity_mw: 200
-turbine_count: 10
+turbine_count: 16
 turbine_model: ""
-unit_mw: ""
+unit_mw: 12.5
 segment: 漂浮式
 status: 核准
 oem: ""
@@ -19,7 +19,7 @@ opportunity: 高
 manual: false
 publish: true
 first_logged: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-05
 ---
 
 ## 项目简介
@@ -76,3 +76,39 @@ Cierco 董事总经理 Scott Harper 明确把项目定位为「在规模化商�
 ## 来源
 - <https://www.renews.biz/offshore-wind/cierco-signs-lease-agreement-for-llyr-floaters/>（2026-08-03）
 - <https://www.renews.biz/offshore-wind/cierco-secures-marine-license-for-llyr/>（2026-07-06）
+- <https://www.offshorewind.biz/2026/08/04/two-100-mw-floating-wind-demo-projects-enter-lease-agreement-with-crown-estate/>（2026-08-04）
+
+---
+
+## 🔧 2026-08-05 更新：台数口径已澄清，单机等级确认在 12.5–16.7MW
+
+offshoreWIND.biz 2026-08-04 报道补齐了此前存疑的关键参数，本条据此修正 `turbine_count` 与 `unit_mw` 两个字段。
+
+**此前记为 `turbine_count: 10`、`unit_mw` 留空，已修正。** 修正依据：
+
+- **每个项目 100MW，各由 6–8 台机组构成** —— 两场合计 **12–16 台**。本条 `turbine_count` 取上限 **16**，`unit_mw` 取下限 **12.5**（100÷8），实际区间为 **12.5–16.7MW**
+- 此前 reNEWS 副标题「10-turbine test and demonstration projects」的口径无法与新数据对齐，两个口径并列保留，**以 offshoreWIND.biz 的 6–8 台/场为准**（该来源同时给出了水深、离岸距离与股权结构，信息完整度更高）
+
+**新增的项目事实：**
+
+- 场址位于**彭布罗克郡外海约 40 公里**（此前本库记为约 30 公里，两个口径并列保留），**平均水深 60–70 米**
+- 两个场址由 Cierco Energy 与 **SBM Offshore** 的合资公司 **Floventis Energy** 持有 —— 此前本库只记了 Cierco，**实际股东中有 SBM Offshore 这家浮式生产系统巨头**
+- 两场**预计采用两种不同的漂浮式技术**（Llŷr 1 与 Llŷr 2 分别验证不同浮体方案）
+- 项目源自 2021 年皇家财产局凯尔特海早期商业化漂浮式租赁轮次
+
+## 🔴 对我方的判断修正（三条，都比之前更紧）
+
+**1. 单机 12.5–16.7MW —— 门槛比预想的高，且已经是硬约束。**
+此前 `unit_mw` 留空时还存在「可能是 10MW 级、我方有对位机型」的想象空间。现在没有了：**没有 15MW 级漂浮式适配机型，这个项目连技术交流的资格都没有。** 这与 [[英国漂浮式2050年40GW产业化路径]] 中给出的英国漂浮式机型基准线完全一致 —— 英国漂浮式管道整体已经站在 15MW 级上。
+
+**2. SBM Offshore 是新的关键变量，可能是机会也可能是壁垒。**
+SBM 是浮式生产储卸装置（FPSO）领域的全球头部企业，其加入意味着：
+
+- **浮体与系泊方案大概率由 SBM 主导**，整机需适配其载荷条件 —— 与此前记录的 MPS PelaFlex 路线可能是两个场各走一条（「两种不同技术」的表述与此吻合）
+- SBM 的采购体系是**油气行业标准**，对供应商的资质、HSE 记录与合同条款要求远高于常规风电业主
+- **但油气系业主对供应商国别的敏感度通常低于纯电力系业主** —— 这是本条相对其他英国海上项目的一个真实优势，值得试
+
+**3. 待办中的第一项已完成，但结论是负面的，须据此调整动作顺序。**
+原待办第一项「核实容量/台数口径，据此推算单机等级（关系到我方是否有对位机型）」已完成，答案是**我方需先确认有无 15MW 级漂浮式机型**。在这个问题有明确答案之前，原待办第四项「8 月内建立技术对话」应暂缓 —— **拿不出对位机型就去谈，只会在业主处留下负面档案。**
+
+`opportunity` 维持 `高`（整机确实未定、容量与阶段均符合口径），但**可争取性实际取决于我方漂浮式产品线的成熟度，而非商务努力**。这一点在向管理层汇报时不应模糊。
