@@ -66,3 +66,54 @@ created: 2026-07-28
 - <https://www.vectorenewables.com/en/blog/final-fer-x-decree-mase-has-approved-the-new-renewable-energy-incentive-framework>
 - <https://www.pv-magazine.com/2026/05/20/italy-to-assign-10-gw-of-pv-in-2026-2027-renewables-auctions/>
 - <https://renews.biz/110400/italy-fer-x-renewables-auction-delay-expected/>
+
+---
+
+## 🔧 2026-08-08 补录：FER X「definitivo」终版法令 —— 陆上风电配额从 4GW 提到 16.5GW
+
+本条此前只覆盖 FER2 与漂浮式执行价。**本库此前遗漏了意大利 2026 年最重要的一项激励机制变更 —— FER X 终版法令。** 按「只增不删、发现遗漏即补录并注明」的规则，在此补入，原 FER2 内容全部保留。
+
+**时间线（均早于本次更新，属补录而非新事件）：**
+
+| 时间 | 事件 |
+|---|---|
+| 2026-06-09 | 欧盟委员会依 CISAF（清洁工业协议国家援助框架）批准意大利 **230 亿欧元**国家援助计划 |
+| **2026-06-18** | **意大利环境与能源安全部（MASE）签署 FER X 终版（definitivo）法令** |
+| 2030-12-31 | 法令失效日（≤1MW 装置在 10GW 额度用完时提前失效） |
+
+**核心数字：**
+
+| 项目 | 内容 |
+|---|---|
+| 总支持规模 | **230 亿欧元** |
+| 总装机容量 | **37.15 GW**（约合意大利现有可再生装机的 48%） |
+| 覆盖技术 | 陆上风电、光伏、水电、污水沼气 |
+| 支持机制 | **20 年期双向差价合约（two-way CfD）** |
+| ≤1MW 装置预留 | 10 GW（可直接进入机制，无需竞价） |
+| >1MW 装置容量 | 从过渡版 FER X 的 14.65GW **提高到 27.15GW** |
+| **陆上风电配额** | **从 4 GW 提高到 16.5 GW（4.1 倍）** |
+
+## 🔴 对我方的含义 —— 意大利陆上的整机盘子被放大了四倍，这是本库对意大利判断的最大变量
+
+**1. 16.5GW 陆上风电配额是本库此前所有意大利判断的隐含前提之外的东西。**
+
+本库现有的意大利判断（[[P1-意大利TotalEnergies接手壳牌管道采购对接]]、[[P1-意大利漂浮式管道提前布局]]）都建立在「意大利陆上是存量整合市场、增量有限」的假设上 —— 参见 [[意大利-Enel-Campo Eolico Ariano 84MW]] 中记录的「Enel 转向买存量而非新建」以及 [[意大利-IVPC-Fortore]] 的改造（repowering）属性。**FER X 把陆上新建配额从 4GW 提到 16.5GW，这个假设需要推翻。**
+
+按 20 年 CfD、2030 年底前的执行期计算，**16.5GW 意味着未来约四年内年均超过 4GW 的陆上整机需求** —— 这个量级足以支撑独立的意大利市场策略，而不只是「顺带覆盖」。
+
+**2. 双向 CfD 结构对整机厂是好消息。** 20 年期双向 CfD 提供的现金流确定性远高于纯市场化 PPA（对照 [[企业PPA替代公用事业PPA的风险]] 中记录的风险），意味着**开发商的融资门槛下降、项目推进速度加快、整机采购决策周期缩短**。
+
+**3. 但陆上配额扩大同时抬高了竞争强度。** Nordex 已在南欧建立密集订单基础（[[Nordex-西班牙259MW订单]]、[[Nordex-希腊PPC 100MW订单]]、[[Nordex-土耳其Turkerler 525MW YEKA5订单]]），Vestas、GE Vernova 在意大利均有在手项目（[[GEVernova-意大利Fortore 100MW订单]]）。**16.5GW 的盘子会被这几家优先瓜分，除非我方能在开发商侧建立早期关系。**
+
+**4. 与漂浮式的关系：FER X 不覆盖海上/漂浮式。** FER X 的技术范围是陆上风电、光伏、水电、污水沼气 —— **海上与漂浮式仍走 FER2 与本条原有记录的 €185/MWh 执行价路径**。两套机制并行，不要混用。这意味着本库对意大利的判断应拆成两条独立线：**陆上看 FER X（盘子大、竞争激烈、机制确定）、漂浮式看 FER2（盘子小、经济性受限、见 [[意大利FER2执行价185欧元与漂浮式经济性]]）**。
+
+## 待办
+- [ ] 建立意大利 FER X 陆上项目管道清单 —— 16.5GW 配额下有哪些开发商在排队，哪些已获许可但整机未定
+- [ ] 重估 [[P1-意大利TotalEnergies接手壳牌管道采购对接]]：TotalEnergies 接手的壳牌欧洲陆上组合中，意大利部分是否可纳入 FER X
+- [ ] 核实 FER X 的竞价规则细节（是否有本地含量/非价格标准），这决定我方是否有实质参与资格
+- [ ] 本条补录暴露了一个流程问题：**2026-06 的意大利重大政策变更直到 2026-08-08 才入库。意大利是五个重点国家之一，政策侧应做一次 2026 年全年回溯补漏。**
+
+## 2026-08-08 新增来源
+- <https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1270>（欧委会批准，2026-06-09）
+- <https://www.nortonrosefulbright.com/en/knowledge/publications/62a76430/italy-reshapes-renewables-definitive-ferx-support-schemes-and-new-grid-connection-rules>
+- <https://www.review-energy.com/otras-fuentes/italy-formalises-23-billion-fer-x-renewable-support-scheme-with-final-decree>
