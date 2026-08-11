@@ -11,8 +11,9 @@ turbine_model: ""
 unit_mw: 15.5
 segment: "海上"
 status: "核准"
-oem: ""
-opportunity: "高"
+oem: "Siemens Gamesa"
+turbine_model_confirmed: "SG 14-236 DD"
+opportunity: "已失单"
 cod_year: 
 capex: "约 EUR 30 亿"
 owner_contact: ""
@@ -20,7 +21,7 @@ source_url: "https://www.offshorewind.biz/2026/06/26/skyborn-nets-another-ppa-fo
 manual: false
 publish: true
 first_logged: 2026-07-28
-updated: 2026-08-05
+updated: 2026-08-11
 ---
 
 ## 项目简介
@@ -67,7 +68,43 @@ updated: 2026-08-05
 
 详见 [[P0-德国Gennaker整机窗口即将关闭]] 的今日复核。
 
+---
+
+## 🔴 2026-08-11 更新：查实已失单 —— 整机由 Siemens Gamesa 拿下，63 台 SG 14-236 DD
+
+**2026-08-05 提出的「本周必须完成的一件事」已完成，结论是失单。**
+
+| 项 | 内容 |
+|---|---|
+| 整机商 | **Siemens Gamesa** |
+| 机型 / 台数 | **SG 14-236 DD × 63 台**（单机额定最高 15MW，叶轮 236m） |
+| 协议 | 整机供货协议（TSA）+ 海上长周期运维协议（LTPSA），**附条件生效**（以 Skyborn 发出 Notice to Proceed 为准） |
+| 上位协议 | 基于 Skyborn 与 Siemens Gamesa **2024-06** 签署的框架供货协议（MSA） |
+| 公开披露日 | **2025-07-18** |
+| 海上安装 | 计划 2028 年初开始 |
+| 来源 | <https://www.offshorewind.biz/2025/07/18/siemens-gamesa-secures-conditional-turbine-order-for-skyborns-german-offshore-wind-farm/> |
+
+**字段变更：`oem` 由留空改为 `Siemens Gamesa`；`opportunity` 由 `高` 改为 `已失单`。以上机会分析全部保留，不删。**
+
+### 与既有记录的口径关系
+
+- 本库既有的 **63 台 / 976.5MW / 15.5MW 单机** 口径与 SGRE 官方的「63 台 SG 14-236 DD、单机额定最高 15MW」**基本吻合**。单机容量两个口径并列：本库既有推算值 **15.5MW**（976.5÷63），厂商机型标称 **最高 15MW**。**不取平均，两者并存** —— 差异可能来自机型的功率提升版本（power-uprate）。
+- 2026-08-05 记录的「过渡段已开工制造」与本次结论完全自洽：**过渡段开工时整机合同已签署一年有余。**
+
+### 判断复盘：方向对，动作缺
+
+2026-08-05 的判断原文是「窗口按常规节奏应已关闭，但仍未见公开定标」，并明确写了「`opportunity` 维持 `高` 是『尚未查实』而不是『确实开放』」。**这个判断是准确的 —— 缺的只是一次检索动作。** 定标信息在 2025-07-18 就已公开，检索 "Skyborn Gennaker turbine supply agreement" 即可命中。
+
+这是本库第二次同类漏检（第一次是 [[哈萨克斯坦-TotalEnergies-Mirny]]，晚 9 个月）。**两次共同特征：项目走到基础/过渡段实际制造这一步时，整机合同事实上早已签署。**
+
+### 更重要的一条：项目级竞争在 MSA 阶段就已结束
+
+Gennaker 的 TSA 派生自 2024 年 6 月的 **框架供货协议（MSA）**。这意味着 —— **我方在 2026 年才开始跟踪这个项目时，竞争其实在 2024 年中就已经结束了。** 同类结构本库另有一例：[[Nordex-EDF英国最高900MW独家供货框架]]。
+
+**结论：对欧洲成熟开发商，逐项目投标已基本无效，必须争取进入其框架供货协议。** 这一条应上升为欧洲市场的通用打法，不只针对德国。
+
 ## 关联
+- 竞对记录：[[SiemensGamesa-德国Gennaker 976.5MW整机供货与长协]]
 - [[2026-08-04-大金重工开工建造Gennaker过渡段]]
 - [[Seaway7-Gennaker单桩安装]]
 - [[Gennaker项目融资与PPA结构]]
