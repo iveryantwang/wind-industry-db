@@ -12,7 +12,7 @@ unit_mw:
 segment: "海上"
 status: "招标中"
 oem: ""
-cod_year: 2032
+cod_year: 2033
 capex: ""
 owner_contact: ""
 opportunity: "中"
@@ -20,7 +20,7 @@ source_url: "https://dured.org/2026/06/29/owpp-draft-tender-specifications-publi
 manual: false
 publish: true
 first_logged: 2026-08-12
-updated: 2026-08-12
+updated: 2026-08-14
 ---
 
 ## 项目简介
@@ -52,3 +52,11 @@ updated: 2026-08-12
 ## 关联
 - [[土耳其-YEKA海上风电1GW招标规则草案]]
 - [[P0-土耳其YEKA1GW草案意见8月17日截止]]
+
+## **2026-08-14 更新（据 2026-08-13 部长表态）**
+
+土耳其能源与自然资源部长 Bayraktar 2026-08-13 确认：**首轮 YEKA 海上风电拍卖定于 2027 年第一季度**，最终招标规则 **2026 年 9 月**公布。海域锁定爱琴海 4 片：萨罗斯湾、格克切岛、博兹贾岛、埃德雷米特（土耳其西北海岸外）。国家目标重申 2035 年 5GW。
+
+**对本项目字段的影响：** 拍卖时点后移，`cod_year` 由 2032 调整为 **2033**（此前记为 2032，依据为 GlobalData 的 2032 年入网预测；现按「2027Q1 拍卖 + 36 个月预许可 + 36 个月建设」重算，已修正）。`opportunity` 维持 `中` —— 整机未定，但阶段过早、订单窗口在 2030 年前后。
+
+来源：<https://turkishminute.com/2026/08/13/turkey-to-hold-first-offshore-wind-energy-tender-in-2027/>

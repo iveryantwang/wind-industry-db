@@ -43,3 +43,20 @@ created: 2026-08-12
 - [[德国-OWP Gennaker]]
 - [[P1-德国WindSeeG修正案后德国海上重启节奏]]
 - [[P2-德国招标缩量后的产能节奏重估]]
+
+## **2026-08-14 更新（据 2026-08-13 表态）：Ørsted 公开支持 CfD 结构，行业口径出现分歧**
+
+2026-08-13，Ørsted CEO Rasmus Errboe 表示对德国 **2.5GW 北海招标**正在成形的结构「非常满意（very pleased）」，与此前行业协会「CfD 机制不应只作为兜底选项（fallback option）」的批评形成对照。
+
+**两个口径并列保留，不取其一：**
+
+| 立场 | 内容 | 来源 |
+|---|---|---|
+| 行业协会 / 部分开发商 | 反对「两阶段（two-stage）」CfD 模型，认为 CfD 不应只是无补贴投标失败后的兜底 | offshoreWIND.biz 2026-08-12《German Gov't Proposes Changes to Offshore Wind Act》· reNEWS 2026-08-11《Berlin under fire for 'two-stage' offshore CfD model》 |
+| Ørsted（最大在位开发商） | 对 2.5GW 北海招标的结构表示满意 | reNEWS 2026-08-13 <https://www.renews.biz/offshore-wind/orsted-boss-welcomes-german-offshore-cfds/> |
+
+**对我方（整机厂）的含义：**
+
+1. **分歧本身就是信息。** 有 CfD 兜底的项目现金流确定性高，业主对整机价格的敏感度会下降、对技术与工期确定性的权重上升 —— 这对我方在德国是**结构性不利**（我方的相对优势在价格）
+2. Ørsted 表态满意，叠加其同日的稳健业绩与「重回海上招标」表态，意味着**德国 2.5GW 北海招标的投标方会比预期拥挤**，且大概率由 SGRE / Vestas 通吃整机
+3. 本库既有判断 [[P0-德国WindSeeG修正案35年运行期机型校核]]（35 年设计寿命载荷校核，deadline 2026-09-10）不变，仍是我方在德国的**资格门槛**问题，不是价格问题
