@@ -19,8 +19,36 @@ opportunity: 高
 manual: false
 publish: true
 first_logged: 2026-08-04
-updated: 2026-08-08
+updated: 2026-08-15
 ---
+
+## ✅ 2026-08-15 更新：Section 36 同意已于 2026-08-07 获批，三项许可全部到位
+
+**本条 YAML `description` 中记为「Section 36 同意待威尔士部长于今夏内批复」—— 该表述已过时，实际已于 2026-08-07 获批。原表述保留不删，此处更正。**
+
+| 时间 | 环节 | 状态 |
+|---|---|---|
+| 2026-06/07 | 自然资源威尔士（NRW）海事许可 | 已批准 |
+| 2026-07 | 皇家财产局海域租赁协议（AfL） | 已签署 |
+| **2026-08-07** | **威尔士部长 Section 36 同意** | **✅ 已批准** |
+
+威尔士政府 2026-08-07 授予 Section 36 同意令，为新一届威尔士政府批准的首个海上风电项目。企业、互联互通与能源内阁大臣 Adam Price 公开表态支持；Cierco Energy 首席执行官 Scott Harper 称这是「Llŷr 与威尔士的重大成就」。项目预计创造约 2,000 个建设期岗位，**首次发电目标 2031 年**。
+
+来源：Welsh Government <https://www.gov.wales/first-offshore-wind-project-approved-new-welsh-government> · Energy Global <https://www.energyglobal.com/wind/07082026/llr-offshore-wind-farm-secures-section-36-consent-from-welsh-ministers/>
+
+### 对整机窗口的含义 —— 窗口正式打开，而不是关闭
+
+**三项许可全部到位、且尚未有任何整机披露，这正是本库定义的「整机招标黄金窗口」。** `opportunity` 维持 `高`，`status` 维持 `核准`（Section 36 属核准环节的完成，尚未进入招标或建设）。
+
+**但本条的可执行性完全取决于一个尚未回答的内部问题** —— [[P0-漂浮式15MW机型资格内部定性]] 要求技术口书面答复「我方是否有通过浮体—塔筒耦合载荷校核的 15MW 级漂浮式版本机型」，`deadline` 为 **2026-08-14，昨日已到期且无结论**。
+
+本条 YAML 记 `unit_mw: 12.5`、16 台；公开报道口径为「每个阶段最多 10 台机组、单阶段 100MW」（即约 10MW 级）。**两个口径并列保留，不取其一** —— 但无论按 10MW 还是 12.5MW，都低于 15MW 档，**意味着 Llŷr 对机型的要求可能比本库此前假设的更宽松，技术口的结论若为「无 15MW 级」，也不必然排除本条。这一点应在 [[P0-漂浮式15MW机型资格内部定性]] 的答复中一并厘清。**
+
+### 待办（本次更新新增）
+
+- [ ] **技术口今日必须给出结论**：我方 10–12.5MW 级机型是否有漂浮式适配版本（不限于 15MW 档）—— 这比原 P0 的问法更贴近 Llŷr 的实际需求
+- [ ] 联系 Cierco Energy（CEO Scott Harper 团队），确认 Section 36 获批后的整机采购时间表与 AR8 递交状态
+- [ ] 与 [[英国-Seatrium-TwinHub漂浮式32MW]]、[[英国-EDF-ESB-住友-Gwynt Glas 1.5GW漂浮式]] 打包，按 [[P1-凯尔特海漂浮式1.73GW市场包统一打法]] 统一提案
 
 ## 项目简介
 
