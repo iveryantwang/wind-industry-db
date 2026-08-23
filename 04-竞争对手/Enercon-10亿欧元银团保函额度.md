@@ -15,7 +15,7 @@ importance: "中"
 source_name: reNEWS
 source_url: https://www.renews.biz/onshore-wind/enercon-secures-e1bn-guarantee-facility/
 publish: true
-created: 2026-08-22
+created: 2026-08-23
 ---
 
 ## 事件

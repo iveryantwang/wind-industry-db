@@ -11,7 +11,7 @@ source_name: "reNEWS"
 source_url: "https://www.renews.biz/offshore-wind/orsted-pge-wrap-up-baltica-2-monopile-installation/"
 importance: "中"
 publish: true
-created: 2026-08-22
+created: 2026-08-23
 ---
 
 ## 摘要
@@ -24,3 +24,11 @@ created: 2026-08-22
 
 ## 关联
 - [[P2-罗马尼亚黑海管道早期卡位]]
+
+## 2026-08-23 补充：安装承包商为 Van Oord
+
+同日 offshoreWIND.biz 以另一角度报道同一事件，补充了本库原记录缺失的信息：**Baltica 2 的单桩安装承包商为 Van Oord**。单桩由 Steelwind 与 Sif 供货（见 [[2026-08-05-Steelwind完成Baltica2单桩交付]]），Van Oord 负责安装，111 根全部就位。
+
+按只增不删规则，本条作为补充写入，不改动原摘要。
+
+来源：https://www.offshorewind.biz/2026/08/21/van-oord-completes-monopile-installation-at-1-5-gw-polish-offshore-wind-project/

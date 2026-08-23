@@ -19,8 +19,8 @@ owner_contact: ""
 source_url: "https://vietstock.vn/2026/08/tien-do-moi-ve-sieu-nha-may-dien-gio-ngoai-khoi-can-gio-6000mw-do-xuan-cau-holdings-trung-nam-de-xuat-768-1482876.htm"
 manual: false
 publish: true
-first_logged: 2026-08-22
-updated: 2026-08-22
+first_logged: 2026-08-23
+updated: 2026-08-23
 ---
 
 ## 项目简介

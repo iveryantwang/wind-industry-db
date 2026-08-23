@@ -19,8 +19,8 @@ owner_contact: ""
 source_url: "https://www.offshorewind.biz/2026/08/21/danish-utility-seeks-new-partner-as-totalenergies-exits-lillebaelt-syd-offshore-wind-project/"
 manual: false
 publish: true
-first_logged: 2026-08-22
-updated: 2026-08-22
+first_logged: 2026-08-23
+updated: 2026-08-23
 ---
 
 ## 项目简介

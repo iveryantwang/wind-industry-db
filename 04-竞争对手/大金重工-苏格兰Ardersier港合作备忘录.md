@@ -15,7 +15,7 @@ importance: "高"
 source_name: offshoreWIND.biz
 source_url: https://www.offshorewind.biz/2026/08/21/chinese-offshore-wind-foundation-manufacturer-inks-mou-with-scotlands-ardersier-port/
 publish: true
-created: 2026-08-22
+created: 2026-08-23
 ---
 
 ## 事件

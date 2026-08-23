@@ -19,8 +19,8 @@ owner_contact: ""
 source_url: "https://www.renews.biz/offshore-wind/pacifico-selected-for-2-1gw-jindo-cluster-phase-2/"
 manual: false
 publish: true
-first_logged: 2026-08-22
-updated: 2026-08-22
+first_logged: 2026-08-23
+updated: 2026-08-23
 ---
 
 ## 项目简介
