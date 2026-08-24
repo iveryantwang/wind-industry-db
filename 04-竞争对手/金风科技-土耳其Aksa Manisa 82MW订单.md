@@ -15,8 +15,24 @@ source_url: "https://www.renews.biz/onshore-wind/goldwind-signs-82mw-turkiye-tur
 importance: 高
 publish: true
 created: 2026-08-15
-updated: 2026-08-15
+updated: 2026-08-24
 ---
+
+## 2026-08-24 更新：同批披露还含 Fiba Renewables 66MW，土耳其为双客户并进
+
+Renewables Now 在同一批报道中披露，金风此次公开的土耳其订单不止 Aksa Energy 一家，还包括土耳其能源集团 **Fiba Yenilenebilir Enerji Holding AS（Fiba Renewables）** 的 **66MW** 项目供货，机型为 **GW165-6.0MW**。报道并指出，Fiba Renewables 在此单前约一个月已订购过同型号机组 —— 即 Fiba 也是**复购客户**。
+
+**日期口径说明：** Renewables Now 该条未标注确切发布日，检索时点显示为「1 周前」，即 2026-08-17 前后，早于本次更新的收录区间。本条按「对库内已有条目的状态更新」处理，并入本笔记而非新建，避免与既有金风—土耳其条目重复。确切日期与 Fiba 项目场址待补。
+
+**结构含义（这一条比 82MW 那单更值得警惕）：**
+
+此前的读数是「金风绑定了 Aksa Energy 一家头部 IPP」。现在的读数变成 —— **金风在土耳其同时对 Aksa 与 Fiba 两家做到复购，且两家都是二次下单。** 复购意味着首单已通过业主的实际运行与服务验收，这比新客户中标难攻得多：新客户可以靠价格和方案抢，复购客户要靠证明对方的既有供应商出了问题。
+
+同时注意机型分层已经形成：**GWH182-8.0MW 打大机型/风储打包场景，GW165-6.0MW 打常规陆上场景。** 这是完整产品线覆盖，不是单点突破。
+
+**对 [[P2-土耳其陆上市场被中资同行先手锁定]] 的影响：** 该条此前定为 P2（观察）。两家头部业主均已复购、Nordex 亦在 YEKA5 拿下 525MW，土耳其陆上的可切入空白正在快速收敛。建议下次复核时判断是否维持 P2 —— 若维持，理由应改为「窗口已基本关闭、转为长期观察」，而非「尚待观察」。
+
+来源：[Renewables Now](https://renewablesnow.com/news/goldwind-wins-turkish-wind-turbine-orders-from-aksa-energy-fiba-1299691/)
 
 ## 事件
 
