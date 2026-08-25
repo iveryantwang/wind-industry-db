@@ -20,7 +20,7 @@ source_url: "https://www.renews.biz/offshore-wind/pacifico-selected-for-2-1gw-ji
 manual: false
 publish: true
 first_logged: 2026-08-23
-updated: 2026-08-23
+updated: 2026-08-25
 ---
 
 ## 项目简介
@@ -60,3 +60,26 @@ Pacifico 的 Jindo 集群总规模 3.2GW，分三期：
 - [[韩国-2026上半年海上风电拍卖机制]]
 - [[P1-韩国1.78GW授标项目拆分与LCR]]
 - [[Unison-韩国Hanbit 340MW优先供应商与1GW新厂]]
+
+---
+
+## 2026-08-25 更新：第二来源确认「唯一开发商」与两项目构成，容量分歧仍未闭合
+
+Windtech International 于 **2026-08-24** 独立报道同一事件，措辞为：Pacifico Energy Korea 获选为 **2.13 GW Jindo 一体化集群二期的唯一开发商（sole developer）**，该期**由 990MW Manho 与 1.8GW Jindo Baram 两个项目构成**。
+
+**这是对本条既有记录的第二来源确认，不是新事实：**
+
+| 要素 | 本条既有记录（renews，08-20） | 第二来源（Windtech，08-24） | 是否一致 |
+|---|---|---|---|
+| 获选方 | Pacifico Energy Korea | 同 | ✅ |
+| 地位 | 唯一开发商 | sole developer | ✅ |
+| 二期标称容量 | 2,130MW | 2.13 GW | ✅ |
+| 构成项目 | Manho 990MW + Jindo Baram 1,800MW | 同 | ✅ |
+
+**容量口径分歧因此确认为来源本身的问题，不是本库转述失误：** 两家独立媒体都写「2.13GW 二期」，又都列出合计 2,790MW 的两个项目。本条 08-23 记录的分歧说明维持不变，两个口径继续并列保留，不取平均。
+
+**处理建议不变：** 待 Pacifico 官方公告或韩国产业通商资源部发电事业许可公示确认。**在容量口径闭合前，不要按 2,130MW 或 2,790MW 中任一数字做产能预留测算** —— 两者相差 660MW，足以改变是否值得配套本地化承诺的结论。
+
+`opportunity` 维持「高」，`status` 维持「前期」。
+
+来源（本次新增）：[Windtech International 2026-08-24](https://www.windtech-international.com/projects-and-contracts/pacifico-energy-korea-selected-for-2-13-gw-jindo-offshore-wind-cluster)
