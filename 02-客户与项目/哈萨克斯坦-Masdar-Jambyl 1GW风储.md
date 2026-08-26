@@ -6,9 +6,9 @@ customer: "Masdar (牵头) / W Solar / Qazaq Green Power / KIDF"
 project: "Jambyl 1GW 风电 + 300MW BESS"
 description: "Masdar 牵头的哈萨克斯坦江布尔州 1GW 风电配 300MW 储能项目，投资约 14 亿美元，2026 年初开工。EBRD 组织 5.48 亿美元融资，AIIB 参与。"
 capacity_mw: 1000
-turbine_count: 
+turbine_count: 140
 turbine_model: ""
-unit_mw: 
+unit_mw: 7.1
 segment: "陆上"
 status: "在建"
 oem: ""
@@ -20,7 +20,7 @@ source_url: "https://masdar.ae/en/news/newsroom/major-milestone-reached-for-1gw-
 manual: false
 publish: true
 first_logged: 2026-07-28
-updated: 2026-08-10
+updated: 2026-08-26
 ---
 
 ## 项目简介
@@ -87,3 +87,68 @@ updated: 2026-08-10
 - <https://masdar.ae/en/renewables/our-projects/jambyl-1gw-wind-farm-600mwh-bess>
 - <https://windinsider.com/2026/06/30/masdar-breaks-ground-on-1-gw-wind-farm-and-battery-storage-project-in-kazakhstan/>
 - <https://www.aiib.org/en/projects/details/2026/proposed/kazakhstan-zhambyl-1gw-wind-and-300mw-bess-project.html>
+
+---
+
+## 🔵 2026-08-26 更新：AIIB 项目文件已查通 —— 补齐 140 台 / 7.1MW 级机型口径，并给出一手核实路径
+
+**08-10 结案时写明的「重启条件」是：取得整机供应商的一手确认（AIIB 采购计划文件 / Masdar 供应商公告 / 哈国本地渠道）。本次复核逐字执行了其中第一条 —— 直接读 AIIB 项目页与其披露的环社文件包。**
+
+**结论要说清楚：整机厂仍未查到，但拿到了三类此前完全没有的硬信息，其中两类直接改变本条的可操作性。**
+
+### 一、技术口径（本条据此补 `turbine_count` 与 `unit_mw`，此前两字段为空）
+
+AIIB 环社影响评价（ESIA）对项目构成的表述为：**1GW 风电场含 140 台 WTG**，配 300MW / 600MWh 储能，并建两回 220kV 架空线接入 Zhambyl 与 Kentau 变电站，线路总长约 300km。
+
+**140 台 / 1,000MW ≈ 单机 7.14MW。** 这是本库首次得到本项目的机型量级，含义有三：
+
+- **7MW+ 陆上机型在中亚属大机型**，能投的厂家有限 —— 这既是门槛，也意味着可比标的少、我方若有对位机型则相对优势明显
+- **ESIA 未载整机厂名称与机型型号。** 大型多边融资项目在 ESIA 阶段若整机已定，通常会写明机型（噪声与阴影闪烁建模需要具体参数）；本文件用「140 WTG」这种通用表述做噪声与闪烁建模，**是整机尚未最终锁定的一个弱信号 —— 弱信号，不是证据，不足以据此改回 `高`**
+- 场址约束已量化：五处受体被划为关键生境（Critical Habitat）、33 处为优先生物多样性价值区，已写入需**按需停机（shutdown on demand）**降低鸟类撞击的缓解措施。**按需停机会直接影响可利用率承诺与发电量担保的报价口径**，投标时必须计入
+
+### 二、商务口径（此前本条 `owner_contact` 为空，公开渠道无入口）
+
+AIIB 项目页公开列明了两侧对接人：
+
+| 侧 | 姓名 | 职务 |
+|---|---|---|
+| 借款人（Masdar） | Dias Kamaliyev | Senior Manager, Business Development (CIS) |
+| 借款人（Masdar） | Cosmin Briciu | Senior Expert, E&S |
+| AIIB | Igor Popkov | Senior Investment Officer |
+| AIIB | Danurachman Krishana | Investment Officer |
+
+**这是本条建档以来第一次出现可直接触达的对接人。** 本库过去 12 天在这个项目上的失败，全部是「公开检索查不到整机厂」；而**「整机是否已定」这个问题，Masdar 的 CIS 业务发展负责人一封邮件就能回答。** 08-10 结案时的判断（「继续等公开消息等于重复 Mirny 的失误」）成立，但结论应当是**换方法**，不是放弃标的。
+
+### 三、项目结构与融资状态
+
+- 项目公司：**Qazaq Wind Power LLP**（此前本库仅记股东名，未记项目公司实体）
+- 股东：Masdar + W Solar Investment + Qazaq Green Power + KIDF（与既录一致）
+- COP29 期间已签两份关键协议：与哈国能源部的**投资协议**、与可再生能源支持金融结算中心（FSC）的 **PPA**
+- 电价**以美元计价、按付款日汇率折算坚戈支付**（详见 [[哈萨克斯坦Jambyl 1GW的AIIB融资与美元计价PPA结构]]）
+- 架空送出线在商运日（SCOD）后**移交哈国政府**
+- **AIIB 侧融资仍为「Proposed / 金额 TBD」**，概念审查日 2026-03-24，项目摘要文件日期 2026-04-03
+
+### 本条字段处理
+
+| 字段 | 处理 | 理由 |
+|---|---|---|
+| `turbine_count` | 空 → **140** | ESIA 明载 |
+| `unit_mw` | 空 → **7.1** | 1,000 ÷ 140 推算，非官方口径，见本节说明 |
+| `opportunity` | **维持 `中`，不改回 `高`** | 08-10 设定的重启条件是「取得整机供应商的一手确认」。ESIA 未载厂名只是弱信号，**尚未取得一手确认，按既定规则不得回调** |
+| `updated` | 改 2026-08-26 | |
+
+**08-10 的下调判断本身不撤销，本次只做增量补正。** 若后续经 Masdar 一手确认整机未定，本条即按重启条件恢复 `高` 并重开 P0；确认已定则改 `已失单` 并建竞对记录。
+
+### 2026-08-26 新增来源
+- AIIB 项目页（含 ESIA / SEP / NTS / LRP 全套文件与对接人）：<https://www.aiib.org/en/projects/details/2026/proposed/kazakhstan-zhambyl-1gw-wind-and-300mw-bess-project.html>
+- Masdar 项目页（ESIA 原件托管）：<https://masdar.ae/en/renewables/our-projects/jambyl-1gw-wind-farm-600mwh-bess>
+
+## 待办（2026-08-26 重排）
+- [ ] **本周内，最高优先**：致函/致电 Masdar 的 Dias Kamaliyev（Senior Manager, BD CIS），就一件事求证 —— **Jambyl 140 台机组的整机供货是否已签约**。这是 12 天公开检索失败后唯一未试过的路径，成本极低
+- [ ] 同步向 AIIB 投资官 Igor Popkov 询问该项目的**采购安排与是否适用 AIIB 采购政策**（若适用，招标文件须公开）
+- [ ] 技术口按 **7.1MW 级 / 140 台 / 含按需停机约束**给出我方对位机型与可利用率承诺口径
+- [ ] 确认哈萨克斯坦本地化率要求（原有待办，未完成 —— 注意 [[三一重能-哈萨克斯坦Mirny与Shu本地产能]] 的 Shu 工厂已具 2GW 年产能，本地含量门槛对我方是实打实的劣势）
+
+## 关联（2026-08-26 新增）
+- [[哈萨克斯坦Jambyl 1GW的AIIB融资与美元计价PPA结构]]
+- [[P0-哈萨克斯坦Masdar 1GW紧急核实]]
