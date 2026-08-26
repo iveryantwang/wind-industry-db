@@ -20,7 +20,7 @@ source_url: "https://renewablewatch.in/2026/08/24/seci-announces-winners-of-6-gw
 manual: false
 publish: true
 first_logged: 2026-08-25
-updated: 2026-08-25
+updated: 2026-08-26
 ---
 
 ## 项目简介
@@ -64,3 +64,30 @@ SECI **FDRE-IX**（Firm and Dispatchable Renewable Energy，保底尖峰电力�
 - [[印度-SECI-2GW ISTS风电招标]]
 - [[P2-印度市场ALMM准入前置判定]]
 - [[风储一体化项目的整机与储能打包供货]]
+
+---
+
+## 2026-08-26 更新：Waaree Forever 已与 Suzlon 深度绑定，本条可竞争容量实质缩小
+
+**新事实（Renewable Watch 2026-08-25）：Waaree Forever Energies 已于 2026-07 向 Suzlon 下过 201.6MW 风电订单**（安得拉邦，64 台 S144 3.15MW），且采用 Suzlon 的**「开发+执行一体（development-cum-execution）」模式** —— Suzlon 不只供机组，还参与项目开发与执行。
+
+**此前本条建立时（2026-08-25）未掌握这一信息，`## 整机采购状态` 中「三家中标方均为开发商，全部需要外采风机」的表述在事实层面仍成立，但「外采」不等于「未定」—— 已存在的深度绑定关系此前未记入，现补充。原文不删除。**
+
+| 中标方 | 容量 | 占比 | 既有整机关系 | 我方胜算 |
+|---|---|---|---|---|
+| Waaree Forever | 700MW | 47% | **Suzlon（201.6MW + 开发执行一体）已证实** | 低 |
+| NTPC REL | 500MW | 33% | Inox Wind 关系待查（嫌疑） | 待定 |
+| ACME Solar | 300MW | 20% | 未查出绑定 | 目前最高 |
+
+**`opportunity` 维持「高」，理由：** 三条判定口径（整机未定 / ≥100MW / 阶段已中标）在字段规范意义上仍全部满足 —— 本项目的整机确实尚未正式定标，公开渠道无任何中标公告。**但正文必须写明：容量最大的一块（Waaree 700MW，占 47%）大概率已有归属，本条的实际可竞争容量应按 ACME 300MW + NTPC REL 500MW 理解，且后者存疑。**
+
+**若后续查实 NTPC REL 亦与 Inox Wind 深度绑定，本条 `opportunity` 应下调为「中」。** 该查证是当前最高优先级动作。
+
+**另一项需要更新的技术基准：** Suzlon 已在印度商用 **S175（5.0MW / 175m 风轮 / 160m 混塔）**。印度陆上主流机型正从 3MW 级切换到 5MW 级，**我方在本标的的机型选型与度电成本对比必须以 S175 为基准**，沿用 S144 会低估对手。
+
+**新增待办（置于原待办之前）：**
+- [ ] 查证 ACME Solar Holdings 的历史风电采购记录 —— 三家中唯一未被证伪的一家，结论决定本条存废
+- [ ] 加速查证 NTPC REL 与 Inox Wind 的关系，结论同时决定本条与库内另外两条印度线
+- [ ] 机型对标基准由 S144 改为 S175，通知财务口重算可分配空间
+
+来源：[Renewable Watch 2026-08-25](https://renewablewatch.in/2026/08/25/suzlon-secures-250-mw-wind-order-from-torrent-group/)
