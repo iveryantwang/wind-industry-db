@@ -19,7 +19,7 @@ opportunity: 低
 manual: false
 publish: true
 first_logged: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-28
 ---
 
 ## 项目简介
@@ -72,7 +72,29 @@ updated: 2026-08-04
 - 政策侧：[[日本-Round4拍卖规则调整与再招标]]
 - 竞对侧：Vestas 在亚太海上市场的技术先发
 
+## 2026-08-28 更新：台数 21 台经基础供货合同侧确认；日本国产单桩首支下线
+
+**2026-08-27** JFE Engineering 宣布其笠冈单桩工厂产出**日本首支国产海上风电单桩**，供本项目。
+
+关键的一条是数量：**JFE 将在 2026-01 至 2027-03 间产出并发运 21 支单桩及过渡段。**
+
+此前本条 `turbine_count: 21` 是按 315MW ÷ 15MW 推算的（见上文「台数口径说明」），现由基础供货合同侧的一手数字予以确认 —— **21 台成立，字段无需修正。** 具体机型（是否为 V236-15.0 MW）仍未见一手披露，`turbine_model` 维持推定值不变。
+
+单桩规格：最大直径约 **11 米**、长约 **80 米**、重约 **2000 吨**。这是全球首个按抗震要求设计的 15MW 级固定式项目的实际基础取值，已单列为 [[日本国产单桩产能与亚太基础供应瓶颈]]。
+
+**合同链条补全：**
+
+| 时间 | 环节 |
+|---|---|
+| 2025-10 | 业主授予**鹿岛建设**基础制造、采购、运输、安装总包 |
+| 2025-12 | 鹿岛转授 **JFE Engineering** 基础制造与运输 |
+| 2026-01 → 2027-03 | JFE 交付 21 支单桩 + 过渡段 |
+| 2028-06 | 计划投运 |
+
+**对我方的含义没有变（整机已由 Vestas 锁定，`opportunity` 维持「低」），但新增一条可用的判断：** 笠冈是日本唯一的单桩基地，按 21 支 / 15 个月折算约 17 支/年，不到欧洲头部单厂（年 200 支）的十分之一。**日本后续 Round 项目的真正瓶颈在基础产能而非整机产能** —— 这一点应写进我方对日本市场的投标策略。
+
 ## 来源
 - <https://www.renews.biz/offshore-wind/certification-milestone-for-315mw-japan-offshore-site/>（2026-08-03）
 - <https://www.renews.biz/offshore-wind/vestas-to-supply-315mw-japanese-wind-farm/>（2024-12-27）
 - <https://www.renews.biz/offshore-wind/kajima-wins-foundations-gig-for-japanese-wind-farm/>（2025-10-24）
+- <https://www.offshorewind.biz/2026/08/27/jfe-engineering-rolls-out-first-made-in-japan-monopile-for-oga-katagami-akita-offshore-wind-farm/>（2026-08-27）
