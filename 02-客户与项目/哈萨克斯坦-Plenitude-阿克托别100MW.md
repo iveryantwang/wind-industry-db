@@ -20,7 +20,7 @@ manual: false
 publish: true
 source_url: "https://kz.kursiv.media/2026-06-08/svan-italyanskij-neftyanoj-gigant-eni-postroit-vetroelektrostanciyu-v-aktyubinskoj-oblasti/"
 first_logged: 2026-08-13
-updated: 2026-08-24
+updated: 2026-08-28
 ---
 
 ## 项目简介
@@ -118,3 +118,58 @@ updated: 2026-08-24
 ### 关联（本次新增）
 - [[哈萨克斯坦-Batys Kaspiy Energo-阿特劳250MW]]
 - [[哈萨克斯坦阿特劳250MW中标电价22.32坚戈与拍卖竞争强度]]
+
+---
+
+## ✅ 2026-08-28 更新：查实存量业主的既往整机选择 —— **Badamsha 1&2 用的是 GE，不是本条此前推定的 Vestas/Nordex/SGRE**
+
+本条 08-13 建档时列出的待办第三项「查 Badamsha 48MW 用的是哪家整机 —— 存量业主的既往选择是最强先验信号」**今日查实。**
+
+### 查实内容
+
+| 项 | 内容 |
+|---|---|
+| 项目 | **Badamsha 1 & 2**，阿克托别州，Eni 旗下 **ArmWind LLP** 运营 |
+| 容量 | 各 48MW，**合计 96MW** |
+| **整机** | **GE 3.8-130** —— 13 台，单机 3.8MW，轮毂高 85m，风轮直径 130m |
+| 供应商选定 | **2018-09，Eni 选定 GE Renewable Energy** |
+| 投运 | Badamsha 1：**2020-03** 商运；Badamsha 2：**2021** 年投运 |
+| 发电量 | Badamsha 1 约 **198 GWh/年**，年减碳约 17.2 万吨 |
+
+来源：Renewables Now <https://renewablesnow.com/news/enis-48-mw-wind-farm-in-kazakhstan-goes-online-692453/>、GE 官方新闻稿 <https://www.ge.com/news/press-releases/eni-and-ge-renewable-energy-power-badamsha-plant-enis-first-large-scale-wind-project>、Eni 项目页 <https://www.eni.com/en-IT/actions/global-activities/kazakhstan/badamsha.html>
+
+### 对本条「竞争提示」一节的修正（原文不删，此处补正）
+
+本条原「竞争提示」写：**「Eni 是意大利公司，其在哈的整机选择很可能沿用欧洲供应链惯性（Vestas / Nordex / Siemens Gamesa）」。**
+
+**这个判断需要一分为二地修正：**
+
+| 原判断 | 修正后 |
+|---|---|
+| Eni 有西方供应链惯性 | ✅ **成立** —— 同一州、同一业主，两期 96MW 全部 GE，且是 2018 年集团层面选定 |
+| 惯性指向 Vestas / Nordex / SGRE | ❌ **不成立** —— 指向 **GE**，原文列举的三家一家都没用过 |
+
+### 为什么这个差别对 2026 年的新 100MW 很关键
+
+**GE Vernova 当前的陆上风电国际业务处在收缩状态。** 本库对其的记录仅有 [[GEVernova-印度Fatehgarh 163MW订单]] 与 [[GEVernova-意大利Fortore 100MW订单]] 两条，均不在中亚；同期美国市场整体退潮（[[2026-08-06-RWE以12.2亿美元退出美国三处海上风电租区]]、[[美国海上风电租区回购39亿美元与RWE转投LNG]]）。
+
+**因此本条的机会评估应当上调而非下调：**
+
+> **Plenitude 在阿克托别的默认供应商，正处在能力与意愿都不确定的状态。这比「业主早已锁定某家欧洲厂商」的原假设，对我方有利得多。**
+
+**`opportunity` 维持 `高`**：整机未定标、容量 100MW、阶段「已中标」，三项条件均满足。今日 [[P0-哈萨克斯坦Plenitude 100MW整机窗口]] 按「查证未果」结案，**结案的是那条判断，不是本标的** —— 标的并入 [[P0-哈萨克斯坦450MW拍卖中标方补查]] 的统一清单继续跟踪。
+
+### 一条顺带的方法论
+
+**「查存量业主的既往整机选择」这个动作，今天用了不到十分钟，产出的却是本条建档以来最有判断价值的一条信息。** 建议把它写进 `02-客户与项目` 的标准建档动作，与「环评核定容量区间」（[[环评阶段的机型容量区间锁定14至22MW]]）、「资金来源是否 ECA 绑定」（[[乌克兰Kernel 94.5MW的EIFO 1亿欧元贷款与出口信贷绑定采购]]）并列，作为三条低成本、高信息量的前置判据。
+
+### 待办（本次更新）
+
+- [x] ~~查 Badamsha 48MW 用的是哪家整机~~ —— **已完成：GE 3.8-130 × 13 台，2018-09 选定 GE Renewable Energy**
+- [ ] 查 GE Vernova 当前是否仍向中亚市场供应 3–4MW 级陆上机型，以及是否具备 2028 年前的交付能力 —— **若否，本项目的整机窗口实际比本库此前评估的更开放**
+- [ ] 一并核查 Eni 在哈的另一项目 **Zhanaozen 247MW 风光气混合电站**（风电部分计划 2026 年底前建成）的整机归属，作为同一业主的第二个先验样本
+
+### 关联（本次新增）
+- [[GEVernova-印度Fatehgarh 163MW订单]]
+- [[GEVernova-意大利Fortore 100MW订单]]
+- [[乌克兰Kernel 94.5MW的EIFO 1亿欧元贷款与出口信贷绑定采购]]

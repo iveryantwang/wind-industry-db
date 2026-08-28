@@ -89,3 +89,44 @@ Suzlon、Inox Wind 等本土厂商天然满足本地数据、控制与 R&D 要�
 - [[印度-Terra Clean-卡纳塔克200MW ISTS风电]]
 - [[P0-印度NTPC 600MW WTG投标9月15日截止]]
 - [[P0-印度TerraClean200MW投标截止9月1日]]
+
+---
+
+## 🔴 2026-08-28 更新：不合规的后果已查实 —— **从 ALMM 除名**，即被排除出印度风电市场
+
+本条 08-27 建档时，对不合规后果的表述是推断性的（「在册不等于合规」）。**本次复核已从两个独立来源查实明确后果，此处补正：**
+
+> **未按要求合规者将被从 ALMM 中除名（de-listing），实际效果是被禁止参与印度风电市场。**
+
+来源：
+- Mercom India，《MNRE Asks Wind Turbine OEMs to Prove Cybersecurity Compliance by August 31》<https://www.mercomindia.com/mnre-asks-wind-turbine-oems-to-prove-cybersecurity-compliance-by-august-31>
+- SaurEnergy，《MNRE Seeks Cybersecurity Compliance Details From Wind Turbine OEMs Under Revised ALMM Rules》<https://www.saurenergy.com/solar-energy-news/mnre-seeks-cybersecurity-compliance-details-from-wind-turbine-oems-under-revised-almm-rules-12432514>
+
+两个来源同时确认了 08-20 备忘录、08-31 申报截止、以及信息将用于后续随机抽查与检查，与本条既有记录一致，无冲突。
+
+### 这把本条的性质从「合规负担」改成了「市场资格存亡」
+
+| 08-27 建档时的判断 | 08-28 查实后的判断 |
+|---|---|
+| 申报是一项合规义务，漏报会进入抽查名单 | **漏报或不合规 ⟹ 从 ALMM 除名 ⟹ 直接失去印度全部投标资格** |
+
+本库在库的印度标的（NTPC REL 600MW、Terra Clean 200MW、SECI FDRE-IX 1500MW、SECI 2GW、NLC 200MW、Jindal 150MW、KP Energy 100MW）**在除名情形下一次性全部归零**，而非逐项受影响。
+
+### 一条重要的先例：MNRE 曾就 ALMM 合规给过延期
+
+检索中另核到 **MNRE 此前曾延长风机专用轴承（special bearings）的 ALMM 合规期限**（Energetica India 报道）。**这说明 MNRE 对 ALMM 项下的本地化条款存在给予延期的先例，本次网络安全条款理论上也可能延期。**
+
+**但两点必须讲清楚，避免误判：**
+
+1. **轴承延期是对「零部件本地化」的延期，本次是「数据主权与运行控制」条款，性质更接近国家安全而非产业扶持** —— 后者通常刚性更强，不宜类比推定会延期。
+2. **即便真的延期，也不改变本周的动作**：本条要求的是**申报**，不是**建成**。如实申报「部分合规」+ 整改路线图，恰恰是争取延期或宽限的正当程序前提；**不申报的一方，在延期发生时也拿不到延期。**
+
+### 待办（本次新增）
+
+- [ ] 在提交申报材料时，一并检索并援引 MNRE 对 ALMM 专用轴承合规期限的延期先例，作为申请整改宽限期的依据
+- [ ] 明确我方在 ALMM 的在册机型清单与对应主体，确认申报义务落在哪个法律实体上
+
+### 关联（本次新增）
+- [[印度-SECI-FDRE-IX 1500MW保底尖峰]]
+- [[印度-Jindal India Renewable-达文格雷150MW RTC]]
+- [[印度-KP Energy-古吉拉特100MW风电]]
