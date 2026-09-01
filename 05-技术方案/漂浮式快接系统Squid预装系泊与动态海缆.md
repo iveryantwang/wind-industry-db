@@ -11,7 +11,16 @@ date: "2026-08-07"
 source_url: "https://www.offshorewind.biz/2026/08/07/encomara-prepares-first-squid-floating-wind-connection-system-for-inshore-trials-in-scotland/"
 publish: true
 created: 2026-08-09
+updated: 2026-09-01
 ---
+
+> **2026-08-28 更新：获 ABS 授予 TRL 7/8。** 美国船级社（ABS）已向 Squid 系统授予**技术就绪度等级 7/8** 资格认证。本笔记原记 `maturity: 示范`、目标 TRL8 —— **目标已基本达成，字段维持「示范」但含义须重读为「已获船级社背书的示范末期」**，尚未改为「商用」是因为未见首个商业项目采用的记录。
+>
+> **TRL 7/8 的分界意义：** 系统已在实际运行环境完成原型演示（7）并接近实机验证（8）。这是业主与保险方开始愿意把该系统写进项目方案的门槛 —— 厂商此前「降低漂浮式 LCOE 最高 15%」的建模结论，由此从自述变成有第三方背书的可讨论前提。
+>
+> **对我方的用法不变但可信度提升：** Squid 不是竞品，是我方漂浮式方案中可引用的第三方组件。在凯尔特海、苏格兰等标的的技术方案里，接入与运维方案完整度是评分项，引用已获船级社认证的快接系统可直接提升方案可信度。
+>
+> 来源：[reNEWS，2026-08-28](https://www.renews.biz/offshore-wind/encomara-secures-abs-nod-for-squid-2/)。（本条补录于 2026-09-01）
 
 ## 方案描述
 
