@@ -13,7 +13,14 @@ source_name: offshoreWIND.biz
 source_url: https://www.offshorewind.biz/2026/08/25/victoria-govt-launches-australias-first-offshore-wind-auction/
 publish: true
 created: 2026-08-26
+updated: 2026-09-01
 ---
+
+> **2026-08-31 更新：RFP 流程正式开放。** 维州能源与资源部长 Jaclyn Symes 于 **2026-08-31** 正式开放首期 2GW 的 Request for Proposal 流程。此前本条正文按 08-25 的宣布日记述，**两个日期并存且各有所指：08-25 为宣布日，08-31 为流程实际开放日**，均予保留，不取其一。
+>
+> 本次报道新增／确认的要素：项目建成后年供电量约相当于 **150 万户**家庭用电；评标维度维持性价比、可交付性、本地工人与企业社区效益三项；合同将纳入全国 **ESEM** 机制，指向维州 **9GW** 海上风电目标；**招标 2027 年 8 月截止，合同 2028 年授出**。
+>
+> 来源：[Windtech International，2026-08-31](https://www.windtech-international.com/projects-and-contracts/victoria-opens-tender-for-first-2-gw-of-offshore-wind)、[ABC News，2026-08-31](https://www.abc.net.au/news/2026-08-31/offshore-wind-explainer-renewable-energy-australia/106745850)。
 
 ## 政策内容
 

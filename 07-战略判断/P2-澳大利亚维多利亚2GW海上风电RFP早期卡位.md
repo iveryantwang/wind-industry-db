@@ -13,7 +13,14 @@ status: 待启动
 manual: false
 publish: true
 created: 2026-08-26
+updated: 2026-09-01
 ---
+
+> **2026-09-01 更新（含一处日期更正）：** 本条 `project` 字段此前记为「RFP 2026-08-25 开放」，**已修正** —— 2026-08-25 是维州政府宣布启动招标的日期，**RFP 流程正式开放是 2026-08-31**。截止与授标时点不变：**2027 年 8 月截止、2028 年授标**，合同纳入全国 ESEM 机制，指向 9GW 长期目标。来源：[Windtech International，2026-08-31](https://www.windtech-international.com/projects-and-contracts/victoria-opens-tender-for-first-2-gw-of-offshore-wind)、[ABC News，2026-08-31](https://www.abc.net.au/news/2026-08-31/offshore-wind-explainer-renewable-energy-australia/106745850)。
+>
+> 更正不改变本条的优先级判断（窗口仍达 12 个月，维持 P2），但**把「地缘准入判定 9 月内出结论」这个自设动作的起算日往后推了 6 天** —— 该动作仍未启动，本月内须落。
+>
+> 同日另一条澳洲事件（[[澳大利亚-CIP-Gawara Baya 408MW]] 融资关闭）暴露了澳洲陆上的情报入口缺失（见 [[P2-澳大利亚Windlab管道与CIP澳洲组合跟踪]]）。**两条合看：澳洲海上我方有 12 个月从容布局，澳洲陆上却连项目名单都拿不全。** 资源分配上，陆上的情报补全比海上的方案深化更紧迫。
 
 ## 判断依据
 

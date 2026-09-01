@@ -13,7 +13,14 @@ source_name: reNEWS
 source_url: "https://www.renews.biz/offshore-wind/germany-urged-to-adopt-cfd-only-tender-model/"
 publish: true
 created: 2026-08-18
+updated: 2026-09-01
 ---
+
+> **2026-08-31 更新：行业呼吁再次升级，且此时距 WindEnergy Hamburg（09-22）不足四周。** reNEWS 于 2026-08-31 刊出题为「Overhaul Berlin policy to provide offshore investment security」的报道，德国海上风电产业界再度要求柏林方面对 WindSeeG 作结构性修改以提供**投资确定性**，口径与本条 08-17 的 BWO 意见一致，属于同一诉求的持续施压，**不是新的政策变动**。
+>
+> **对我方的含义没有变，但时间感变了：** 修正案定稿前，德国 2026 及以后各轮招标的投标意愿都处于观望，[[德国-2026海上风电招标规模下调]] 与近年流标记录是同一问题的表现。**我方在德国的动作应继续挂在「等修正案定稿」这一前提上**，但须在 9 月下旬汉堡展期间把握与德国开发商面对面确认其投标意向的机会 —— 那是今年唯一一次能同时见到多数德国海上开发商的窗口。
+>
+> 来源：[reNEWS，2026-08-31](https://www.renews.biz/offshore-wind/berlin-must-revamp-windseeg-to-provide-offshore-investment-security/)。
 
 ## 核心内容
 

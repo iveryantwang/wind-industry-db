@@ -20,8 +20,14 @@ source_url: "https://www.offshorewind.biz/2026/08/25/victoria-govt-launches-aust
 manual: false
 publish: true
 first_logged: 2026-08-26
-updated: 2026-08-26
+updated: 2026-09-01
 ---
+
+> **2026-08-31 更新：RFP 流程正式开放。** 本笔记此前记为「2026-08-25 以 RFP 形式开放」，**已修正为：08-25 是维州政府宣布启动招标之日，08-31 是 RFP 流程实际开放之日。** 两个日期均保留。
+>
+> 同步确认：招标 **2027 年 8 月截止**、合同 **2028 年授出**、纳入全国 **ESEM** 机制、年供电量约相当于 **150 万户**家庭。`status` 维持「招标中」，`oem` 维持留空，`opportunity` 维持「高」—— **开发商未定、整机未定的状态未变，且现在窗口已确定为 12 个月**。
+>
+> 来源：[Windtech International，2026-08-31](https://www.windtech-international.com/projects-and-contracts/victoria-opens-tender-for-first-2-gw-of-offshore-wind)。
 
 ## 项目简介
 
