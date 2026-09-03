@@ -40,3 +40,29 @@ created: 2026-08-29
 - [[P2-美国海上风电退出后的产能与订单外溢]]
 - [[美国海上风电租区回购39亿美元与RWE转投LNG]]
 - [[2026-08-06-RWE以12.2亿美元退出美国三处海上风电租区]]
+
+---
+
+## **2026-09-02 更新：加州将 RWE 一并列为被告**
+
+**2026-09-02，offshoreWIND.biz 报道加州正式对特朗普政府**与** RWE 提起诉讼，针对 Golden State Wind 漂浮式项目租约的取消交易。**
+
+来源：offshoreWIND.biz 2026-09-02《California Moves to Sue Trump Administration, RWE Over Deal to Cancel Floating Wind Project》
+<https://www.offshorewind.biz/2026/09/02/california-moves-to-sue-trump-administration-rwe-over-deal-to-cancel-floating-wind-project/>
+
+**与 08-31 记录的口径对照（两个口径并列保留，不取其一）：**
+
+| 日期 | 来源 | 被告范围 |
+|---|---|---|
+| 2026-08-31 | reNEWS《California launches Golden State lease buyout lawsuit》 | 特朗普政府 **与 Golden State Wind LLC** |
+| **2026-09-02** | offshoreWIND.biz | 特朗普政府 **与 RWE** |
+
+**两者并不矛盾** —— Golden State Wind LLC 是 RWE 的项目公司，两个口径指向同一实体的不同层级。此处并列记录，不做合并。
+
+### 对我方的新增含义
+
+**开发商被卷入诉讼，是「租区回购退出」这条路的第一个实际成本。**
+
+本库 [[美国-海上风电租区回购退出机制]]、[[美国海上风电租区回购39亿美元与RWE转投LNG]] 记录了回购机制本身。**这条补上了机制的另一面：接受回购的开发商，未必能干净退出 —— 州政府可以以「交易本身违法」为由把开发商一并起诉。**
+
+对我方的实际含义有限（美国海上非我方主战场），但作为一个判例值得留档：**在联邦与州政府政策方向相反的市场里，开发商的「政策性退出」不是零成本操作。** 这个逻辑在其他联邦制或中央—地方分权的市场（澳大利亚、印度、加拿大）同样适用。

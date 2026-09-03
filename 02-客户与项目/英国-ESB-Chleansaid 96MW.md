@@ -1,0 +1,81 @@
+---
+type: project
+region: 欧洲
+country: 英国
+customer: "ESB（爱尔兰电力局，100% 持股）"
+project: "Chleansaid 96MW 陆上风电（苏格兰高地 Lairg 附近）"
+description: "2026-09-02，ESB 宣布 96MW Chleansaid 陆上风电项目达成最终投资决定（FID）并完成主要施工合同签署。项目 16 台风机，2023 年取得规划许可并获 15 年期差价合约（CfD），年内开工，2028 年商运。GE Vernova 提供整机与长期服务支持，Kirby Group 承担电气 BoP，Farrans Construction 承担土建 BoP。这是 ESB 在苏格兰自主开发的首个陆上风电项目，也是其约 2GW 苏格兰与威尔士管道中首个进入建设的项目。"
+capacity_mw: 96
+turbine_count: 16
+turbine_model: ""
+unit_mw: 6
+segment: 陆上
+status: 已中标
+oem: "GE Vernova"
+cod_year: 2028
+capex: ""
+owner_contact: ""
+opportunity: 低
+manual: false
+publish: true
+first_logged: 2026-09-03
+updated: 2026-09-03
+---
+
+## 项目简介
+
+**2026-09-02**，ESB 宣布苏格兰高地 Lairg 附近的 **96MW Chleansaid 陆上风电场**达成 **FID**，并完成主要施工合同签署。
+
+| 项 | 内容 |
+|---|---|
+| 容量 | **96MW / 16 台**（推算单机约 6MW） |
+| 位置 | 苏格兰高地 Lairg 附近 |
+| 股权 | ESB **100% 全资** |
+| 许可 | 2023 年取得规划许可 |
+| 收入机制 | **15 年期 CfD** |
+| **整机 + 长协** | **GE Vernova** |
+| 电气 BoP | Kirby Group |
+| 土建 BoP | Farrans Construction |
+| 开工 / 商运 | 2026 年内 / **2028 年** |
+
+ESB 可再生能源负责人 Paul Lennon 称，这是 ESB 在苏格兰**自主开发的首个陆上风电项目**。
+
+## 整机采购状态
+
+**整机已定 —— GE Vernova 拿下整机供货与长期服务支持（LTSA）。本项目对我方已无机会，`opportunity: 低`。**
+
+但这条的收录价值不在这 96MW，而在它暴露的两件事：
+
+**1. ESB 的管道量级远大于本项目：约 2GW 苏格兰 + 威尔士陆上风电在开发。**
+Chleansaid 是这 2GW 里**第一个**进入建设的项目。ESB 明确表示其余项目仍在开发中。**这意味着 ESB 是一个新出现的、规模可观的、整机偏好尚未完全固化的英国陆上业主 —— 只是第一单已被 GE Vernova 拿走。**
+
+**2. 首单 + 长期服务支持的组合，是国际厂商锁定新业主的标准打法。**
+GE Vernova 拿的不只是整机，还有 LTSA。**首单绑长协，等于把业主的运维体系、备件逻辑、人员培训一并锁进自家生态。** 这与 [[Nordex-EDF英国最高900MW独家供货框架]] 是同一手法的两种形态：EDF 那边是明面的独家框架，ESB 这边是「首单 + 长协」的事实性绑定。
+
+**英国陆上市场的整机准入正在被两三家国际厂商用「框架 / 长协」逐个业主收口。** 我方在英国陆上的路径已被 EDF（Nordex）和 ESB（GE Vernova）连续压缩两次。
+
+## 关键时间点
+
+| 时间 | 事件 |
+|---|---|
+| 2023 | 取得规划许可 |
+| — | 取得 15 年期 CfD |
+| 2026-09-02 | **FID，主要施工合同签署，GE Vernova 获整机 + 长协** |
+| 2026 年内 | 开工 |
+| 2028 | 商运 |
+
+## 沟通记录
+
+## 待办
+
+- [ ] 拆出 ESB 约 2GW 苏格兰/威尔士管道的**逐个项目清单**，标出尚未定整机、尚未取得 CfD 的部分 —— 这才是可争取的部分
+- [ ] 核实 GE Vernova 与 ESB 的合同是否含**后续项目优先权/框架条款**；若含，英国路径要改走威尔士或与第三方合资的项目
+- [ ] 对照 [[P1-英国陆上EDF渠道被Nordex锁定后的替代路径]]，把 ESB 从「潜在替代路径」名单中移出，重排英国陆上业主优先序
+
+## 关联
+
+- [[GEVernova-英国ESB Chleansaid 96MW整机与长协]]
+- [[P1-英国ESB约2GW陆上管道的整机卡位]]
+- [[P1-英国陆上EDF渠道被Nordex锁定后的替代路径]]
+- [[英国Chleansaid 96MW的15年CfD与整机长协打包结构]]
+- [[2026-09-02-ESB苏格兰Chleansaid96MW完成FID由GEVernova供货]]
