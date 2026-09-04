@@ -7,19 +7,19 @@ project: "Chleansaid 96MW 陆上风电（苏格兰高地 Lairg 附近）"
 description: "2026-09-02，ESB 宣布 96MW Chleansaid 陆上风电项目达成最终投资决定（FID）并完成主要施工合同签署。项目 16 台风机，2023 年取得规划许可并获 15 年期差价合约（CfD），年内开工，2028 年商运。GE Vernova 提供整机与长期服务支持，Kirby Group 承担电气 BoP，Farrans Construction 承担土建 BoP。这是 ESB 在苏格兰自主开发的首个陆上风电项目，也是其约 2GW 苏格兰与威尔士管道中首个进入建设的项目。"
 capacity_mw: 96
 turbine_count: 16
-turbine_model: ""
-unit_mw: 6
+turbine_model: "GE Vernova Cypress 6.1MW-158m"
+unit_mw: 6.1
 segment: 陆上
 status: 已中标
 oem: "GE Vernova"
 cod_year: 2028
 capex: ""
 owner_contact: ""
-opportunity: 低
+opportunity: 已失单
 manual: false
 publish: true
 first_logged: 2026-09-03
-updated: 2026-09-03
+updated: 2026-09-04
 ---
 
 ## 项目简介
@@ -72,9 +72,29 @@ GE Vernova 拿的不只是整机，还有 LTSA。**首单绑长协，等于把�
 - [ ] 核实 GE Vernova 与 ESB 的合同是否含**后续项目优先权/框架条款**；若含，英国路径要改走威尔士或与第三方合资的项目
 - [ ] 对照 [[P1-英国陆上EDF渠道被Nordex锁定后的替代路径]]，把 ESB 从「潜在替代路径」名单中移出，重排英国陆上业主优先序
 
+---
+
+**2026-09-04 更新：GE Vernova 09-03 正式确认供货协议，机型细节落地；`opportunity` 由「低」改为「已失单」**
+
+reNEWS 2026-09-03 报道 GE Vernova 官方确认与 ESB 签署供货协议，补齐 09-02 缺失的参数：
+
+| 项 | 内容 | 此前记录 |
+|---|---|---|
+| 机型 | **Cypress 6.1MW-158m ×16** | 仅推算「约 6MW」，机型空缺 |
+| 机舱制造地 | **德国** | 未记 |
+| 服务年限 | **20 年服务协议** | 记为 LTSA，未记年限 |
+| 特殊配置 | **16 台全部采用分段叶片（split-blade）** | 未记 |
+| 里程碑 | **Cypress 平台在英国的首次应用** | 未记 |
+
+**字段变更说明：`opportunity` 由 `低` 改为 `已失单`。** 依据字段规范，「整机已由竞对拿下」即为 `已失单`；此前记为 `低` 是在 FID 当日整机确认前的保守取值，现按正式签约事实修正。**原有机会分析全部保留，不删。**
+
+**本次新增的实质信息不在订单本身，在分段叶片：** GE Vernova 明确表述该技术「便利大叶片运抵条件受限的偏远场址，并由此支持使用更大的风轮」。苏格兰高地这类场址的机型上限此前由公路运输半径决定，分段叶片把这个上限打开了 —— **意味着在同类地形上，运输方案已成为投标资格的一部分。** 我方东南亚山地在库标的（老挝 Sepon、柬埔寨蒙多基里、越南高原）面临同一类约束，详见 [[分段叶片与山地偏远场址的机型准入]]。
+
 ## 关联
 
 - [[GEVernova-英国ESB Chleansaid 96MW整机与长协]]
+- [[分段叶片与山地偏远场址的机型准入]]
+- [[2026-09-03-GEVernova正式签署Chleansaid 96MW供货协议为英国首台Cypress]]
 - [[P1-英国ESB约2GW陆上管道的整机卡位]]
 - [[P1-英国陆上EDF渠道被Nordex锁定后的替代路径]]
 - [[英国Chleansaid 96MW的15年CfD与整机长协打包结构]]
