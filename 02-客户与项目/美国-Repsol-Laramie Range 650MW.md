@@ -6,11 +6,11 @@ customer: "ConnectGen Laramie County（Repsol Renewables North America 关联公
 project: "Laramie Range 650MW 陆上风电（怀俄明州拉勒米县，分 400MW + 250MW 两期）"
 description: "2026-09-03，怀俄明州工业选址委员会就 650MW Laramie Range 风电项目启动许可程序，申报方为 Repsol Renewables North America 关联公司 ConnectGen Laramie County。项目位于拉勒米县西北部私有与州有土地、25 号州际公路以西，分 400MW 与 250MW 两期，预计 2027 年四季度前开工，两期均于 2029 年底前投运。施工期 24 个月月均用工 131 人，2028 年三季度峰值 305 人。整机供应商未公开。"
 capacity_mw: 650
-turbine_count:
+turbine_count: 139
 turbine_model: ""
 unit_mw:
 segment: 陆上
-status: 前期
+status: 核准
 oem: ""
 cod_year: 2029
 capex: ""
@@ -19,7 +19,7 @@ opportunity: 低
 manual: false
 publish: true
 first_logged: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-05
 ---
 
 ## 项目简介
@@ -90,7 +90,37 @@ updated: 2026-09-04
 ## 关联
 
 - [[2026-09-03-怀俄明州启动LaramieRange 650MW风电选址许可程序]]
+- [[2026-09-04-怀俄明州工业选址委员会核准LaramieRange650MW风电]]
 - [[P2-美国海上风电退出后的产能与订单外溢]]
 - [[美国税收抵免退坡下的近期交付冲刺与前期管道走弱]]
 - [[Nordex-美国480MW三笔订单]]
 - [[Vestas-美国306MW订单计入三季度]]
+
+---
+
+## 2026-09-05 更新：ISC 许可获批，`status` 由「前期」改为「核准」
+
+怀俄明州环境质量署工业选址委员会（ISC）在两天、累计近 18 小时的听证后**核准**了本项目在私有与州有土地上的建设许可。Windpower Monthly 于 **2026-09-04** 报道（标题 "Wyoming approves 650MW Laramie Range wind project"），Cowboy State Daily 的现场报道日期为 **2026-09-01**。
+
+**新增与修正的事实：**
+
+| 项 | 此前记录（2026-09-04 建条时） | 本次更新 |
+|---|---|---|
+| 阶段 | 许可程序**启动** | **许可已获批** |
+| 台数 | 未知 | **139 台**（→ 单机约 4.7MW） |
+| 占地 | 私有 + 州有土地（未量化） | 私有约 **35,350 英亩** + 州有约 **5,870 英亩**；总占地口径约 41,220 英亩 |
+| 与被否版本的关系 | 未记 | **本次获批范围小于 2025-09 被拉勒米县委员会否决的版本** —— 项目是靠缩减占地 + 转州级路径过关的 |
+
+**口径分歧留痕：** Windpower Monthly 报道日为 09-04，Cowboy State Daily 现场报道日为 09-01。本库以「本库首次捕获日 09-04」作为 `date`，实际决议日以 09-01 为准，两个日期并列保留，不取其一覆盖另一。
+
+**判断不变的部分：**
+
+`opportunity` **维持「低」**。变的是项目进度，不变的是美国陆上对我方的三重结构性封闭（14420 号行政令的设备准入、PTC/ITC 国产成分要求、整体政策不确定性）。**核准只是把「我方进不去的 650MW 整机窗口」从模糊变得确定。**
+
+**判断被强化的部分：**
+
+本条建条时提出的对 [[P2-美国海上风电退出后的产能与订单外溢]] 的修正路径 —— 「美国本土陆上仍在产生 GW 级新增管道，海上退出释放的产能可能被本土陆上吸收而非外溢国际市场」—— **随许可落地而从「假设」升级为「已发生的事实」**：650MW 现在是一个有许可、有工期（2027 Q4 开工）的确定性订单池，不再是待批管道。
+
+**这意味着我方对「对手产能外溢导致主战场价格战」的悲观预期应当下调一档。** 建议在该 P2 判断中把本次核准作为量化依据补记。
+
+来源（本次新增）：[Windpower Monthly 2026-09-04](https://www.windpowermonthly.com/article/1969161/wyoming-approves-650mw-laramie-range-wind-project) · [Cowboy State Daily 2026-09-01](https://cowboystatedaily.com/2026/09/01/scaled-down-laramie-range-wind-project-gets-go-ahead-after-intense-2-day-hearing/)
