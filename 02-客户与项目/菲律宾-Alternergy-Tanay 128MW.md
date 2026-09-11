@@ -7,20 +7,29 @@ project: "Tanay 陆上风电（黎刹省，128MW）"
 description: "Alternergy 位于菲律宾黎刹省 Tanay 的 128MW 陆上风电，2026-08-03 起向吕宋电网送电，是能源部 GEAP II 绿色能源拍卖项目中首个供电的风电项目；采用 16 台 8MW 机组，为菲律宾最大陆上机型。"
 capacity_mw: 128
 turbine_count: 16
-turbine_model: ""
+turbine_model: "远景 8MW"
 unit_mw: 8
 segment: 陆上
 status: 已并网
-oem: ""
+oem: "远景能源"
 cod_year: 2026
 capex: "PHP 80 亿（银行融资额度）"
 owner_contact: ""
-opportunity: 低
+opportunity: 已失单
 manual: false
 publish: true
 first_logged: 2026-08-04
-updated: 2026-08-04
+updated: 2026-09-11
 ---
+
+> **✅ 2026-09-11 更新：整机供应商已查实为远景能源。`oem` 由空白补为「远景能源」，`opportunity` 由 `低` 改为 `已失单`，`turbine_model` 补为「远景 8MW」。以下 08-04 建档时的全部内容与「数据缺口」段落一律保留，不删改 —— 保留的目的是留下这条线索从「推断是中国厂商」到「查实是远景」的过程。**
+>
+> **依据：** 远景能源 2024-02-05 公告获 Alternergy **162MW** 整机合同，覆盖 **Alabat 与 Tanay 两个项目**，机型为 **6.5MW 与 8MW 组合**，含 **10 年运维**。Tanay 的 16 台 8MW 即出自此合同。
+> 来源：[PR Newswire 2024-02-05](https://www.prnewswire.com/apac/news-releases/landmark-achievement-envision-energy-secures-first-ever-order-with-162-mw-wind-turbines-in-the-philippines-302051887.html)
+>
+> **容量口径分歧（并列记录，不取平均）：** 2024-02 合同口径为 162MW（Alabat + Tanay 合计）；当前项目口径为 Alabat 64MW + Tanay 128MW = 192MW。差额来自 Tanay 由 86.8MW 扩容至 128MW（86.8 + 64 = 150.8MW，与 162MW 接近但不吻合）。**未见双方就扩容后的合同总量重新披露。**
+>
+> **08-04 建档时下方待办第一条「查实 Tanay 的 16 台 8MW 机组是谁供的」由本次更新闭环。** 本条 38 天 `oem` 空白的原因不是外部信息不可得 —— 远景 2024 年即已公开发布，**是本库没有把「8MW + 东南亚最大陆上机型 + 远景已在菲律宾」三项拼起来**。详见 [[远景能源-菲律宾Alternergy162MW整机订单与Alabat首台8MW吊装]]。
 
 ## 项目简介
 
@@ -53,11 +62,15 @@ Alternergy Holdings Corporation（董事长为菲律宾前能源部长 Vince Per
 ## 沟通记录
 
 ## 待办
-- [ ] **查实 Tanay 的 16 台 8MW 机组是谁供的** —— 若为金风/远景/明阳/运达，须在 `04-竞争对手` 补建条目并重估我方在菲律宾陆上的位置
+- [x] ~~**查实 Tanay 的 16 台 8MW 机组是谁供的**~~ —— **2026-09-11 闭环：远景能源**，已建 [[远景能源-菲律宾Alternergy162MW整机订单与Alabat首台8MW吊装]]
 - [ ] 拉取 GEAP II 中标名单里其余尚未开工的风电项目，逐个核整机是否已定
+- [ ] 查 Alternergy 剩余风电管道容量，及其与远景的 10 年运维关系是否构成后续项目的事实排他
 
 ## 关联
 
+- [[远景能源-菲律宾Alternergy162MW整机订单与Alabat首台8MW吊装]]
+- [[菲律宾-Alternergy-Alabat 64MW]]
+- [[远景能源-菲律宾国家配送中心投运]]
 - [[菲律宾-能源部-GEA5海上风电3.3GW]]
 - [[菲律宾-GEA5海上风电拍卖重启时间表]]
 - [[东南亚陆上8MW级大机型落地]]
