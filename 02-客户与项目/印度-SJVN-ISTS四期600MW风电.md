@@ -19,7 +19,35 @@ opportunity: 高
 manual: false
 publish: true
 first_logged: 2026-09-11
-updated: 2026-09-11
+updated: 2026-09-15
+---
+
+## **2026-09-15 更新：SJVN 在 2026 年内有两场各 600MW 的风电招标，本条只对应其中的四期（既有内容全部保留）**
+
+本次检索发现一个**极易混淆、且已经在外部报道中被混淆**的事实，先固定口径以免本库后续误记：
+
+| | **A：2026-03 公布的 600MW** | **B：本条 —— 2026-09 公布的 ISTS 四期 600MW** |
+|---|---|---|
+| 招标发起 | 2025-09 发标 | — |
+| 结果公布 | **2026-03 初** | **2026-09-10** |
+| L1 电价 | **Rs 3.64/kWh** | **Rs 3.88/kWh** |
+| 中标方 | **KPI Green Energy 300MW @3.64**、Urdhvaga Renewables（UPC Renewables）120MW @3.64、**Adyant Enersol（Datta Infra）110MW @3.64**、Lambent Energy（Resolven）70MW @3.65 | Adyant Enersol 150MW、NLC India Renewables 200MW @3.88、Refex Green Power 80MW @3.88、Torrent Green Energy 100MW @3.89、Green Prairie Energy Six 70MW |
+| 本库状态 | **无记录** | 本条 |
+
+**两场是不同的招标，不是同一场的不同报道。** 有第三方媒体把 B 的授标结果与 A 的 Rs 3.64 电价混写，**本库以各自原始公布为准，两个口径并列记录，不取平均、不互相覆盖**。
+
+### 为什么这条更正重要（OEM 视角）
+
+**A 场的 600MW 同样是整机未定的在库外容量，且其中有一个我方已经识别过的开发商：**
+
+- **Adyant Enersol（Datta Infra）在 A、B 两场都中标**（A 场 110MW + B 场 150MW），**加上 SECI 1495MW 名单内的份额，其累计待采整机规模是本库印度板块单一开发商中最高的**
+- 本条原文已判定「Adyant Enersol 是唯一值得单独立项接触的」—— **本次更正把这个判断的分量再抬高一档：它不是一轮中标，是三轮**
+- **KPI Green Energy 300MW 是 A 场最大单笔，本库完全无记录**（库内仅有 KP Energy 古吉拉特 100MW，与 KPI Green 是不同主体，需注意区分）
+
+**按规则，A 场（2026-03）信息早于前一日窗口且非本条状态更新，不新建项目笔记**，在此留痕并列为下次运行的定向核实任务：A 场四家中标方的整机状态与场址。
+
+**前置条件不变：ALMM。** 今日 [[P0-印度NTPC 600MW WTG投标9月15日截止]] 已因 ALMM 结论未出而到期作废 —— **A 场 600MW + B 场 600MW + SECI 1495MW，全部卡在同一句话上。**
+
 ---
 
 ## 项目简介
