@@ -19,7 +19,7 @@ owner_contact: ""
 manual: false
 publish: true
 first_logged: 2026-07-28
-updated: 2026-07-28
+updated: 2026-09-19
 ---
 
 ## 项目简介
@@ -51,3 +51,31 @@ PBL 另受托就 Nederwiek 1/2 与 IJmuiden Ver Gamma 的最高招标金额出�
 ## 待办
 - [ ] 9 月招标文件公布后 2 周内，向 3–4 家预期投标方递交 2032 年可交付机型的度电成本输入包
 - [ ] 明确我方在荷兰的本地含量/生态评分可贡献项（如降噪打桩配套、回收叶片承诺）
+
+## 2026-09-19 更新（信息日 2026-09-18）：送出工程已开工，投标窗口不会后延
+
+**TenneT 的 IJmuiden Ver Gamma 2GW 换流平台导管架 2026-09-18 在荷兰弗利辛恩 Heerema Fabrication Group 船厂完成首次切钢。**
+
+| 项 | 内容 |
+|---|---|
+| 主承包 | **GE Vernova – Seatrium** |
+| 导管架建造 | **Heerema Fabrication Group，弗利辛恩** |
+| 同批平台 | IJmuiden Ver Beta、**IJmuiden Ver Gamma**、Nederwiek 2 |
+| 建造周期 | 约两年（分段拼装、焊接、防腐） |
+| **发运** | **2028 年夏** |
+
+**对本项目判断的影响：**
+
+送出侧比风场投运（2032）早约 **4 年**开工。**这意味着 TenneT 不是 Gamma 的进度制约因素 —— 瓶颈完全在开发商侧的投标与整机采购。**
+
+因此本笔记「关键时间点」表中的 **2026-11-26 投标开启 / 2026-12-10 截止** 是**真窗口，不存在被外部因素推迟的理由**。距投标开启约 **10 周**，距截止约 **12 周**（此前 07-28 建档时记为约 17 周，窗口已自行走掉约 5 周）。
+
+上位判断 [[P1-荷兰Gamma招标标前绑定投标联合体]] 的 deadline 不变，**紧迫性上调**。
+
+**另一条口径信息：** GE Vernova–Seatrium 拿下荷兰三座 2GW 平台主承包，与德国 50Hertz 的 NSORe–西门子能源组合形成对照 —— **北海 2GW 平台市场已被两个联合体分掉，整机厂在送出侧没有参与空间**，资源应全部集中在风场侧。见 [[北海2GW标准化换流平台对风场分包粒度的锁定]]。
+
+来源：[reNEWS, 2026-09-18](https://www.renews.biz/offshore-wind/work-starts-on-ijmuiden-ver-gamma-jacket/)
+
+## 关联
+- [[2026-09-18-IJmuidenVerGamma2GW导管架在Heerema弗利辛恩开工]]
+- [[北海2GW标准化换流平台对风场分包粒度的锁定]]

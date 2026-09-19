@@ -11,6 +11,7 @@ date: "2026-07-08"
 source_url: "https://energywatch.com/EnergyNews/wind/article19442849.ece"
 publish: true
 created: 2026-07-28
+updated: 2026-09-19
 ---
 
 ## 方案描述
@@ -35,3 +36,16 @@ Aker Solutions 承接欧洲海上风电项目 HVDC 平台下部结构 EPC，反�
 **总包商路径提示：** Seatrium 同期在英国 Lowestoft 建运维枢纽，又把 BalWin5 导管架分包给韩国厂商 —— 「欧洲承接、亚洲制造、欧洲服务」的分工已跑通。新加坡系总包商比欧洲本土总包更现实地构成我方入口。
 
 来源：<https://www.offshorewind.biz/2026/07/31/sk-oceanplant-to-build-jacket-foundation-for-balwin5-offshore-converter-platform/>
+
+## 2026-09-19 更新（信息日 2026-09-18）：2GW 已成北海标准平台模块
+
+**2026-09-18 一天之内，德荷两大 TSO 各推进一座 2GW 换流平台：**
+
+- **德国 50Hertz** 将 **LanWin3**（2GW）授予 **NSORe**（Neptun Werft + Smulders）+ **西门子能源**；含 2026-06 的 LanWin6，两平台归属 NSORe 约 **25 亿欧元**；接入 **NordOstLink** HVDC 走廊
+- **荷兰 TenneT** 的 **IJmuiden Ver Gamma**（2GW）导管架在 **Heerema 弗利辛恩**切钢，主承包 **GE Vernova – Seatrium**，**2028 年夏**发运
+
+**本条原记的 Aker Solutions 口径（2026-07-08）保留。** 补充结论：**HVDC 平台已从一事一议走向 2GW 标准模块化，且市场被两个联合体分掉**（NSORe–西门子能源 / GE Vernova–Seatrium）。
+
+对整机的传导详见新建条目 [[北海2GW标准化换流平台对风场分包粒度的锁定]]。
+
+来源：[offshoreWIND.biz, 2026-09-18](https://www.offshorewind.biz/2026/09/18/neptun-werft-smulders-joint-venture-secures-second-2-gw-converter-platform-contract-from-50hertz)

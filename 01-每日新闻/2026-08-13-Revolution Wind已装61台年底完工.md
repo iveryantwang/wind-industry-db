@@ -67,3 +67,13 @@ offshoreWIND.biz 2026-08-18 报道，据 Ørsted 半年报口径（2026-08-13 �
 **对我方的含义：** Revolution Wind 在停工令、减值（[[2026-08-03-Eversource对RevolutionWind计提1.64亿美元减值]]）与政策反复之后仍完成 95%，说明**美国海上在建项目的执行端并未崩塌，崩塌的是前期管道**——与同日 [[2026-08-18-WoodMackenzie称美国风电转向近期交付前期管道走弱]] 的结论一致。
 
 来源：offshoreWIND.biz 2026-08-18 <https://www.offshorewind.biz/2026/08/18/four-turbines-to-go-at-us-offshore-wind-farm-set-to-power-rhode-island-and-connecticut/>
+
+## 2026-09-19 更新（信息日 2026-09-18）：全部风机安装完成
+
+**2026-09-18，Revolution Wind 宣布 704MW 全部风机安装完成**，早于本条原记的「年底完工」口径。两个口径并列保留：本条 08-13 记「已装 61 台、年底完工」，09-18 确认全部装完。
+
+整机为 **西门子歌美飒 SG 11.0-200 DD**，704MW / 65 台 = 单机约 **10.8MW**。
+
+来源：[offshoreWIND.biz, 2026-09-18](https://www.offshorewind.biz/2026/09/18/us-gets-new-offshore-wind-farm-as-all-turbines-installed-at-704-mw-revolution-wind)
+
+详见 [[2026-09-18-RevolutionWind 704MW全部风机安装完成]] 与 [[SiemensGamesa-RevolutionWind704MW全部风机安装完成]]。
