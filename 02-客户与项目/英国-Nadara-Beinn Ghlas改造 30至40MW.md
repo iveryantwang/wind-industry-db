@@ -10,7 +10,7 @@ turbine_count: 7
 turbine_model: ""
 unit_mw:
 segment: "陆上"
-status: "前期"
+status: "核准"
 oem: ""
 opportunity: "中"
 cod_year:
@@ -20,8 +20,22 @@ source_url: "https://www.energyglobal.com/wind/16092026/nadara-submits-repowerin
 manual: false
 publish: true
 first_logged: 2026-09-17
-updated: 2026-09-17
+updated: 2026-09-21
 ---
+
+> **2026-09-21 更新：阶段有误，已修正为「核准」；同时记录一处来源口径分歧，按本库规则两个口径并列、不取平均。**
+>
+> | 来源 | 日期 | 口径 |
+> |---|---|---|
+> | Energy Global（本库建档来源） | 2026-09-16 | Nadara **递交**规划申请，改造后 **30–40MW** |
+> | **reNEWS**（本次复核新增来源） | **2026-09-15 14:27** | Nadara **已取得规划许可**（secured planning permission），容量 **33.6MW** |
+> 来源：<https://www.renews.biz/onshore-wind/nadara-wins-beinn-ghlas-repower-approval/>
+>
+> **两点分歧：**
+> 1. **阶段** —— reNEWS 称已获批，且日期比「递交」还早一天。**以 reNEWS 为准：项目已核准。** `status` 由「前期」改为「核准」。此前记为「规划申请已递交、未获批」，已修正。
+> 2. **容量** —— reNEWS 给 **33.6MW**（落在 30–40MW 区间内，且恰为 7 台 × 4.8MW 的量级）。`capacity_mw` **维持 40 不变**（按上限记录的既有口径），正文并列记载 33.6MW 这一具体数字，待第三来源确认后再定。
+>
+> **对我方的实质影响：整机窗口比建档时判断的提前了约两年。** 建档时写的是「苏格兰陆上审批通常 12–24 个月，整机招标最早 2027 下半年」——**这个前提已不成立，审批已完成。** 已核准项目的整机询价通常在核准后 6–18 个月内启动，即 **2027 年上半年之前**。下方「窗口判断」段的原文保留不删，但其结论以本段为准。
 
 ## 项目简介
 
