@@ -12,7 +12,7 @@ deadline: 2026-09-30
 status: 进行中
 manual: false
 publish: true
-updated: 2026-09-22
+updated: 2026-09-24
 ---
 
 > **🇻🇳 2026-09-07 逾期复核：原 `deadline` 2026-08-31 已过 7 天。`deadline` 顺延至 2026-09-30，`status` 维持「进行中」。**
@@ -603,3 +603,5 @@ updated: 2026-09-22
 - [[P0-哈萨克斯坦Plenitude 100MW整机窗口]]
 - [[哈萨克斯坦-Plenitude-阿克托别100MW]]
 - [[P0-印度ALMM网络安全合规8月31日申报截止]]
+
+**2026-09-23 更新：入口从两个变成三个。** 此前判断「私营侧已关门、国企侧是越南仅剩的入口」需修正：美资 Pacifico Energy 于 2026-09-23 获 Nam Trung Bo 3（1,300MW）海域勘测许可，连同 2026-02 的 Nam Bo PE2.1（500MW）共 1.8GW，无公开的中资整机绑定。**原判断保留（国企线仍成立），新增私营外资线**，单独建为 [[P1-越南Pacifico 1.8GW海上管道设计基础期技术卡位]]（deadline 2026-11-30）。本条 deadline 2026-09-30 剩 6 天，国企线「取得三个项目勘察负责人联系方式」子动作仍未见完成记录。来源：[Business Wire](https://www.businesswire.com/news/home/20260923391087/en/)

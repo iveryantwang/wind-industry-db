@@ -43,3 +43,5 @@ created: 2026-09-01
 - [[2026-08-31-Iberdrola Windanker 315MW开始送电]]
 - [[2026-08-31-RWE Nordseecluster A完成半数风机安装]]
 - [[企业PPA替代公用事业PPA的风险]]
+
+**2026-09-23 更新：** Ørsted 与 Nuveen Infrastructure 于 2026-09-23 为 Borkum Riffgrund 3 举行正式落成仪式。83 台 Siemens Gamesa 11MW 机组，距岸约 72km，年发电可覆盖近百万德国家庭；为 Ørsted 在德第六个投运海上风场，其在德海上装机达约 2.5GW。本次为仪式性节点，与 08-31 商运口径无冲突，既有分析不变。来源：[offshoreWIND.biz](https://www.offshorewind.biz/2026/09/23/orsted-and-nuveen-inaugurate-913-mw-offshore-wind-farm-in-germany)
