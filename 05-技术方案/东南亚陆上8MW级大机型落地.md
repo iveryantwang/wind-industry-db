@@ -11,6 +11,7 @@ date: "2026-08-03"
 source_url: "https://windinsider.com/2026/08/03/alternergy-begins-power-generation-from-128-mw-tanay-wind-project-in-philippines/"
 publish: true
 created: 2026-08-04
+updated: 2026-09-25
 ---
 
 ## 方案描述
@@ -34,3 +35,12 @@ created: 2026-08-04
 - [[菲律宾-Alternergy-Tanay 128MW]]
 - [[整机出海从设备供货到全链条方案]]
 - [[11MW级海上机组含塔架总包供货]]
+
+## 2026-09-25 更新：同档机型进入欧洲 —— 远景 EN175/8.0
+
+远景 2026-09-24 在汉堡发布面向欧洲的 **EN175/8.0**（Model T 平台，与菲律宾 Alabat 8MW 同平台），针对欧洲口径做了三处调整：**声功率 107dB(A) 低噪声**（锯齿尾缘）、**构网型控制**与弱电网运行、低温版与叶片防冰。样机年底并网，2028-Q1 量产。
+
+**技术含义：** 8MW/175m 档在东南亚验证的是抗台与交付速度，进入欧洲时的门槛换成了**噪声、构网与认证周期**。对越南等五国而言，这意味着远景东南亚 8MW 机型将继承欧洲版的构网控制能力，弱电网场址（老挝、柬埔寨）上的技术对比口径需要更新。
+
+来源：[reNEWS](https://www.renews.biz/onshore-wind/hamburg-2026-envision-targets-europe-with-new-onshore-turbine/)
+

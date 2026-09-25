@@ -13,7 +13,7 @@ source_name: Windtech International
 source_url: https://www.windtech-international.com/industry-news/germany-proposes-changes-to-offshore-wind-law
 publish: true
 created: 2026-08-12
-updated: 2026-09-22
+updated: 2026-09-25
 ---
 
 ## 核心内容
@@ -185,3 +185,12 @@ BWO 委托 **Frontier Economics** 完成测算，2026-09-21 发布：
 - [ ] **拆出「16GW 已授标未 FID」的项目清单**：逐个标注开发商、场址、授标年份、整机是否已定 —— 这是德国海上机会池的第一次量化
 - [ ] 跟踪联邦议院审议时间表（一读 / 委员会 / 二读）
 - [[丹麦-海上风电CfD机制遭国家援助诉讼]]
+
+## 2026-09-25 更新：明阳公开表态支持草案中的网络安全与供应链韧性条款
+
+2026-09-24 WindEnergy Hamburg 上，明阳欧洲公共事务负责人称：联邦内阁 9 月通过的修正案草案（拟自 2027 年起启用新招标设计与评标标准）中**网络安全与本地供应链韧性**要求「在预期之内」，明阳已按该草案与欧盟 NZIA 推进本地化（欧盟境内董事会、区域运维、与数国政府洽谈建厂）。Siemens Energy 负责人同日公开表示对德国海上风电规则迟迟未定「已经厌倦」（reNEWS 标题，正文未读取，不展开）。
+
+**对本条的含义：** 草案的非价格条款已成为整机商公开站队的议题。我方需在草案定稿前核清：控制系统与数据落地、关键部件来源是否满足可能的计分口径。见 [[明阳智能-汉堡表态支持德国WindSeeG本地化与网络安全条款]]。
+
+来源：[reNEWS](https://www.renews.biz/offshore-wind/hamburg-2026-mingyang-backs-german-offshore-wind-rules-overhaul/)
+
