@@ -8,12 +8,12 @@ project: "英国 AR8 落标项目重新询价窗口（Pot 3 合格容量 >17GW�
 capacity_mw: 17000
 action: "2026 年 9 月底前建成 AR8 递交项目清单（Pot 3 与 Pot 4 分列，标注开发商与整机归属）；结果公布日（最早 2026-11-27）起 4 周内，逐个接触落标开发商递交降本方案"
 rationale: "AR8 申请窗口已于 2026-08-07 12:00 关闭，凡递交项目的整机方案在此前已收口，技术预选窗口全部关闭。但 Pot 3 合格容量 >17GW、历轮 CfD 中标率从未接近 100%，落标容量规模可观。落标项目的标准反应是重做成本模型、压低整机报价、重新询价 —— 落标项目对价格的敏感度显著高于对供应商国别的敏感度，这是我方在英国海上市场（本地含量结构性劣势）唯一现实的切入时点。结果最早 2026-11-27 公布，窗口不在 4 周内关闭，故为 P1；但清单准备工作须在结果公布前完成，否则届时来不及"
-deadline: 2026-09-30
+deadline: 2026-12-18
 status: 待启动
 manual: false
 publish: true
 created: 2026-08-08
-updated: 2026-08-08
+updated: 2026-09-26
 source_name: reNEWS
 source_url: https://www.renews.biz/offshore-wind/door-closes-for-ar8-submissions/
 ---
@@ -107,3 +107,13 @@ source_url: https://www.renews.biz/offshore-wind/door-closes-for-ar8-submissions
 ## 来源
 - <https://www.renews.biz/offshore-wind/door-closes-for-ar8-submissions/>（2026-08-07）
 - <https://www.renews.biz/offshore-wind/door-opens-for-ar8-submissions/>（2026-07-20）
+
+---
+
+**2026-09-26 更新：结果公布日后移，`deadline` 由 2026-09-30 改为 2026-12-18（此前记为 2026-09-30，已修正）**
+
+- reNEWS 2026-09-25：AR8 因资格复议转入第 3/5 条时间线，结果最早 **2027-01-04 至 01-06**，最晚可能 **2027-02-15 至 02-17**（见 [[英国-AR8差价合约招标]]、[[2026-09-25-英国AR8结果预计推迟至2027年初]]）
+- 原 `rationale` 中「结果最早 2026-11-27 公布」已不成立，原文保留不删
+- **新节奏：** 递交项目清单在结果公布前完成即可，取 2027 年初最早公布日前约 2 周 → **2026-12-18**；落标开发商接触窗口相应顺延至 **2027-01 至 03**
+- 优先级维持 P1。**额外风险：** 竞价延后会推迟英国海上整体 FID 节奏，本条与 [[P1-英国本地含量劣势对冲]] 的时间锚一并后移
+

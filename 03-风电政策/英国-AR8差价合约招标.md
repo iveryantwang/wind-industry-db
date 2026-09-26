@@ -72,3 +72,16 @@ Pot 3 合格容量 >17GW，而历轮 CfD 的中标率从未接近 100%。**2026-
 - <https://www.renews.biz/offshore-wind/door-closes-for-ar8-submissions/>（2026-08-07）
 - <https://www.renews.biz/offshore-wind/door-opens-for-ar8-submissions/>（2026-07-20）
 - <https://www.windtech-international.com/industry-news/uk-government-to-open-allocation-round-8-renewables-auction-in-july-2026>（2026-07）
+
+---
+
+**2026-09-26 更新（覆盖 2026-09-25 信息）：AR8 结果预计推迟至 2027 年初**
+
+- 至少一家未获资格的开发商提出 **Tier 1 复议**，DESNZ 上周未能发布拍卖通知，AR8 转入五条官方时间线中的**第 3 条**
+- 密封竞价授权最早 **2026-10-22 至 10-28**；结果最早 **2027-01-04 至 01-06**
+- 业内预计可能进一步落到第 4/5 条时间线（触发 Tier 2 复议），结果最晚 **2027-02-15 至 02-17**
+- DESNZ 表态「将适时确认」
+
+**对本条既有判断的修正：** 上文「为 11 月底至次年 2 月的结果公布做准备」中，**11 月底已不可能**（此前最快时间线为 12-01 前出结果）；结果窗口收窄为 **2027-01 初至 02 中旬**。上文待办保留不删，时间锚点按此更新。
+
+来源：<https://www.renews.biz/other-news/ar8-auction-results-set-to-slip-into-2027/>（2026-09-25）
