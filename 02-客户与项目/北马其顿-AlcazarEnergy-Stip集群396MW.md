@@ -7,12 +7,12 @@ project: "Štip 风电集群（三期，最高 396MW）"
 description: "西巴尔干最大风电集群，横跨北马其顿 Karbinci、Radoviš、Štip 三市镇，位于斯科普里东南约 75km，规划三期共最高 396MW。第一期 Štip 风电场 131.25MW（21×6.25MW）于 2026-09-09 完成融资关闭，总投资 1.8 亿欧元，优先级债务逾 1.15 亿欧元来自 EBRD、IFC 与 Erste Group Bank，2028 年全面投运，EPC 为克罗地亚 Končar + Dalekovod 联合体。二三期约 265MW 计划未来数月开工，整机无公开信息。全部投运后将使北马其顿全国风电装机翻两番以上。"
 capacity_mw: 396
 turbine_count: 21
-turbine_model: ""
+turbine_model: "EN182-6.25MW（一期）"
 unit_mw: 6.25
 segment: "陆上"
 status: "在建"
-oem: ""
-opportunity: "中"
+oem: "远景能源"
+opportunity: "已失单"
 cod_year: 2028
 capex: "一期 1.8 亿欧元"
 owner_contact: ""
@@ -20,8 +20,16 @@ source_url: "https://www.renews.biz/onshore-wind/alcazar-reaches-financial-close
 manual: false
 publish: true
 first_logged: 2026-09-10
-updated: 2026-09-10
+updated: 2026-09-29
 ---
+
+**2026-09-29 更新：一期整机确认为远景能源，`opportunity` 中→已失单**
+
+reNEWS 2026-09-23（[原文](https://www.renews.biz/onshore-wind/envision-lands-131mw-europe-turbine-deal/)）：**远景供应 21 台 EN182-6.25MW**（轮毂 120m）用于一期 131.25MW；**EBRD、IFC、Erste 在融资关闭后认可远景技术可融资**。本库此前未检出该条（09-23 发布），按「在库项目整机定标」例外补录。
+
+- 下方「整机采购状态」一节 09-10 的推断成立：一期已选定、6.25MW 非欧洲主流标称值 —— 确为远景
+- **二三期约 265MW**：按原分析「沿用一期供应商是基准情形」，且远景已获三家融资方的可融资性认可，二三期几无插入空间，故整体记 `已失单`；原机会分析保留于下方，若二三期出现另行招标的反证再恢复
+- 竞对记录：[[远景能源-北马其顿Stip一期131MW订单]]
 
 ## 项目简介
 
