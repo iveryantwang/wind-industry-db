@@ -8,13 +8,15 @@ project: "Ras Shokeir 1GW 陆上风电"
 capacity_mw: 1000
 action: "两周内建立通往 Infinity Power 与 Hassan Allam Utilities Energy 的直接接触路径（优先经 Masdar 侧或埃及本地代理），目标是在其融资条款书定稿前拿到整机采购时间表与技术规格草案"
 rationale: "2026-09-02 PPA 已签、整机未定、1,000MW 陆上单体——本库当前整机未定容量最大的标的。埃及陆上项目的整机定标通常在 PPA 后 6–12 个月内完成，且多边开发银行主导的项目融资会把设备资质与采购要求写进贷款条款书，条款书定稿后极难变更。我方在埃及既无渠道也无业绩，需要同时完成「建渠道」与「参与竞标」两件事，而 Vestas / SGRE / Nordex / GE Vernova 在苏伊士湾均有存量业绩。窗口的紧迫性不来自招标公告，来自融资条款书的成形节奏。"
-deadline: 2026-09-30
+deadline: 2026-10-31
 status: 待启动
 manual: false
 publish: true
 created: 2026-09-03
-updated: 2026-09-07
+updated: 2026-10-08
 ---
+
+**2026-10-08 复核（补跑 09-30 → 10-07）：原 deadline 2026-09-30 已过，库内无执行记录；判断依据未被新信息推翻 → deadline 顺延至 2026-10-31，状态维持。请 Zhenyu 确认结案或执行。**
 
 ## 为什么是 P0
 

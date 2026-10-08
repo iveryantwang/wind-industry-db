@@ -8,12 +8,14 @@ project: "SECI Tranche-XX 2GW ISTS 风电招标（授标 1495MW）"
 capacity_mw: 1495
 action: "本月内核实我方陆上机型是否在印度 RLMM 名录内，并优先接触 Gentari、Datta Infra、Atiriwal 三家无固定整机绑定的中标方"
 rationale: "12 家中标方全部为开发商、整机全未定标；SECI 项目 PPA 签署后一般 3–6 个月内定标，窗口在 2026 年 9 月至 2027 年 1 月。但 RLMM 名录准入是前置条件，若不在名录内则窗口再长也无意义 —— 核名录这件事本月必须有结论"
-deadline: 2026-09-30
+deadline: 2026-10-31
 status: 待启动
 manual: false
 publish: true
-updated: 2026-09-07
+updated: 2026-10-08
 ---
+
+**2026-10-08 复核（补跑 09-30 → 10-07）：原 deadline 2026-09-30 已过，库内无执行记录；判断依据未被新信息推翻 → deadline 顺延至 2026-10-31，状态维持。请 Zhenyu 确认结案或执行。**
 
 > **🔴 2026-09-07 逾期复核：原 `deadline` 2026-08-31 已过 7 天，`status` 自 2026-07-28 建档以来 41 天始终为「待启动」。`deadline` 顺延至 2026-09-30。**
 >

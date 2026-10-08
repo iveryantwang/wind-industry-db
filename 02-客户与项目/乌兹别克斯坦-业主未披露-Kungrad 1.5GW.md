@@ -2,7 +2,7 @@
 type: project
 region: 中东非
 country: 乌兹别克斯坦
-customer: "业主未披露（卡拉卡尔帕克斯坦共和国投资计划）"
+customer: "ACWA Power（沙特）"
 project: "孔格勒（Kungrad）区 1.5GW 风电"
 description: "卡拉卡尔帕克斯坦孔格勒区 1.5GW 风电，投资 26 亿美元，含 1,500km 高压线路与三座 500kV 变电站，2026-09-28 披露已开工。"
 capacity_mw: 1500
@@ -12,16 +12,24 @@ turbine_model: ""
 segment: 陆上
 status: 在建
 oem: ""
-cod_year:
-capex: "26 亿美元（含送出）"
+cod_year: 2027
+capex: "30.6 亿美元（ACWA 口径，含 300MW 储能与送出）/ 26 亿美元（总统新闻秘书口径）"
 owner_contact: ""
 opportunity: 低
 manual: false
 publish: true
 source_url: "https://www.trend.az/casia/uzbekistan/4228603.html"
 first_logged: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-08
 ---
+
+**2026-10-08 更新（覆盖 10-05 信息）：业主确认为 ACWA Power；投资口径冲突；2027Q1 投运**
+
+- ACWA Power 声明（[Trend.Az 10-05](https://www.trend.az/casia/uzbekistan/4231111.html)）：Kungrad 区三座风电场合计 1.5GW + **300MW 储能** + 约 1,500km 高压线路 + 三座 500kV 开关站，**2027 年一季度投运**
+- **投资口径冲突**：ACWA 30.6 亿美元 vs 库内 09-28 记录 26 亿美元（总统新闻秘书）。差额可能为储能部分，两口径并列，不取平均
+- 整机仍未披露。ACWA 在乌既往风电采用远景机组（6.5MW 机型，[Arab News](https://www.arabnews.com/business/acwa-power-installs-first-wind-turbine-in-uzbekistan-2352166)），**推断**本项目沿用远景的概率高，但无来源确认，**不填 `oem`、不判失单**
+- `opportunity` 维持 `低`（已开工、2027Q1 投运 → 整机早已锁定）
+- 文件名保留「业主未披露」以免断链，YAML `customer` 已改为 ACWA Power
 
 ## 项目简介
 

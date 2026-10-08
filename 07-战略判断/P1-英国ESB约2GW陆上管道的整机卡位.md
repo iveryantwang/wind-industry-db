@@ -8,13 +8,15 @@ project: "ESB 苏格兰与威尔士约 2GW 陆上风电开发管道（Chleansaid
 capacity_mw: 1900
 action: "本月内核实 GE Vernova 与 ESB 的 Chleansaid 合同是否含后续项目优先权或框架条款；若不含，立即拆出 ESB 约 2GW 管道中尚未定整机、尚未取得 CfD 的项目清单并建立接触"
 rationale: "2026-09-02 ESB 首个自主开发的苏格兰项目 Chleansaid（96MW）完成 FID，整机与长期服务打包给 GE Vernova。ESB 在苏格兰与威尔士另有约 2GW 陆上管道在开发，Chleansaid 是其中首个进入建设的。本月这已是第二个英国陆上业主被国际厂商用框架或长协锁定（第一个是 EDF/Nordex）。ESB 此前被本库视为 EDF 渠道关闭后的替代路径，如今入口已被占据，但后续 2GW 是否一并被锁尚未确认——这个未确认项决定我方在英国陆上还有没有渠道。"
-deadline: 2026-09-30
+deadline: 2026-10-31
 status: 待启动
 manual: false
 publish: true
 created: 2026-09-03
-updated: 2026-09-04
+updated: 2026-10-08
 ---
+
+**2026-10-08 复核（补跑 09-30 → 10-07）：原 deadline 2026-09-30 已过，库内无执行记录；判断依据未被新信息推翻 → deadline 顺延至 2026-10-31，状态维持。请 Zhenyu 确认结案或执行。**
 
 ## 判断
 

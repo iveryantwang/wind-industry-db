@@ -10,7 +10,7 @@ turbine_count:
 turbine_model: ""
 unit_mw:
 segment: "海上"
-status: "核准"
+status: "招标中"
 oem: ""
 cod_year:
 capex: ""
@@ -20,8 +20,14 @@ source_url: "https://www.offshorewind.biz/2026/08/19/orsted-proposes-new-2-gw-of
 manual: false
 publish: true
 first_logged: 2026-08-20
-updated: 2026-08-20
+updated: 2026-10-08
 ---
+
+**2026-10-08 更新（覆盖 09-30 信息）：沃旭已以大肚一号投标 3-3 期**
+
+- 09-30 沃旭以「大肚一号」递交 3-3 期投标书（Renewables Now 口径 840MW、环说口径 924MW，两口径并列）；唯一对手 CIP「渢妙三」场址几乎重叠，**二选一**
+- 阶段 `核准` → `招标中`；结果 2026 年底前公告。若沃旭胜出，整机定标约在 2027 年，沃旭台湾既往项目均用 SGRE / Vestas
+- 见 [[2026-09-30-台湾离岸风电3-3期仅沃旭与CIP两家投标]]
 
 ## 项目简介
 

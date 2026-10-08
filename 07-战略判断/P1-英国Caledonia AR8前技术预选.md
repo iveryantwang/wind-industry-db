@@ -8,12 +8,14 @@ project: "Caledonia 海上风电（2GW）"
 capacity_mw: 2000
 action: "原动作已随 2026-08-07 AR8 申请截止而失效。改为：核实 Caledonia 是否已递交 AR8；已递交则建立结果跟踪（2026-11-27 起），落标后 4 周内接触 Ocean Winds 重新询价；未递交则该项目转 AR9 轮次，技术预选窗口顺延至 2027 年"
 rationale: "2026-07-17 取得 offshore consent，最后一道监管审批已过，CfD 未定 —— 开发商此阶段需要整机报价做 AR8 竞价模型，是技术预选的最佳时点。但 Vestas 已宣布苏格兰机舱厂锁定本地含量加分，本条需与 P1-英国本地含量劣势对冲 合并推进"
-deadline: "2026-09-15"
+deadline: 2026-10-31
 status: "进行中"
 manual: false
 publish: true
-updated: 2026-08-17
+updated: 2026-10-08
 ---
+
+**2026-10-08 复核（补跑 09-30 → 10-07）：原 deadline 2026-09-15 已过，库内无执行记录；判断依据未被新信息推翻 → deadline 顺延至 2026-10-31，状态维持。请 Zhenyu 确认结案或执行。**
 
 ## 判断依据
 
