@@ -21,7 +21,7 @@ source_url: "https://www.offshorewind.biz/2026/06/26/skyborn-nets-another-ppa-fo
 manual: false
 publish: true
 first_logged: 2026-07-28
-updated: 2026-09-22
+updated: 2026-10-10
 ---
 
 ## 项目简介
@@ -199,3 +199,7 @@ Gennaker 实测：MSA（2024-06）→ 融资关闭（2026-09-11），**间隔 27
 - [[Seaway7-Gennaker单桩安装]]
 - [[Gennaker项目融资与PPA结构]]
 - [[P0-德国Gennaker整机窗口即将关闭]]
+
+---
+
+**2026-10-10 更新（据 2026-10-09 报道）：**两座海上升压站（OSS Zingst、OSS Darß，各约 450MW）的上部组块与导管架 10-09 自荷兰启运驶向波罗的海；来源重申整机为 Siemens Gamesa（63 台，单机最高 15.5MW），Fred. Olsen Windcarrier 负责风机安装，**风机安装 2027 年开始、2028 年商运**。来源写 927MW，另述 63 台合计最高 976.5MW，与本条 `capacity_mw` 976.5 并列记录，口径差异（927MW 为并网/授权容量口径的可能性）来源未解释，不取平均。`opportunity` 维持「已失单」。来源：[offshoreWIND.biz](https://www.offshorewind.biz/2026/10/09/offshore-substations-for-gennaker-wind-farm-en-route-to-baltic-sea-video)。

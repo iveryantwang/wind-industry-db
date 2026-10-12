@@ -13,7 +13,7 @@ status: 待启动
 manual: false
 publish: true
 created: 2026-09-18
-updated: 2026-10-08
+updated: 2026-10-10
 ---
 
 **2026-10-08 更新：NZIA 专项首场风电配额定为 750MW；deadline 09-30 → 11-06**
@@ -133,3 +133,7 @@ FER X 对 **>1MW 的光伏与风电各设"专项程序（dedicated procedures）
 
 - [ ] **今日**：Zhenyu 确认是否有任何意大利开发商已在首场预资格中写入我方机型（是 → 改 `进行中`）
 - [ ] 10 月内查 GSE 首场预资格通过名单（公布后）→ 作为后续场次开发商绑定的目标池
+
+---
+
+**2026-10-10 更新：窗口复核 —— 仍成立，且倒计时变清晰。**据 Edilportale 10-09 报道，GSE 意向书窗口 **10-22 开启（12 天后）→ 11-06 截止（27 天后，不可延期）**，预资格最迟 **11-30** 取得。书面结论（我方能否进入 NZIA 专项 750MW 风电）仍须在 11-06 之前给出——否则无法对开发商做可信承诺。本条 `deadline`、`status` 不变（待启动），**至今库内无执行记录，建议 Zhenyu 本周指定法务负责人**。来源：[Edilportale](https://www.edilportale.com/news/2026/10/risparmio-energetico/fer-x-definitivo-prima-procedura-per-le-rinnovabili_112196_27.html)。
