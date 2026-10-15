@@ -56,3 +56,7 @@ created: 2026-08-13
 - [[美国-海上风电租区回购退出机制]]
 - [[美国-国防部风电项目审查冻结被法院解除]]
 - [[P2-美国海上风电退出后的产能与订单外溢]]
+
+---
+
+**2026-10-15 更新（覆盖 2026-10-14 信息）：** 机制扩展到已建成项目。10-09 美国司法部与内政部在华盛顿特区联邦地区法院请求就 Revolution Wind 704MW 的 COP 核准作发回重审的简易判决，该项目 3 月已送电、9 月装完最后一台风机。详见 [[2026-10-14-美国司法部请求法院发回重审RevolutionWind核准]]。来源：<https://www.offshorewind.biz/2026/10/14/trump-administration-seeks-remand-of-cop-approval-for-offshore-wind-farm-now-in-final-commissioning-stage>

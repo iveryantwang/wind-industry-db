@@ -59,3 +59,13 @@ Fengmiao 1 由 CIP 开发，容量 **495MW**，场址在台中外海约 **35 公
 ## 来源
 - <https://www.offshorewind.biz/2026/08/05/offshore-substation-export-cable-works-completed-at-taiwans-fengmiao-1/>（2026-08-05）
 - <https://www.renews.biz/offshore-wind/fengmiao-1-reaches-construction-milestones/>（2026-08-05）
+
+---
+
+## 2026-10-15 更新（覆盖 2026-10-14 信息）
+
+**reNEWS 10-14：Vestas 向 Fengmiao 1 提前交付首个 V236-15.0MW 轮毂。** 据此补齐 `oem: Vestas`、`turbine_model: Vestas V236-15.0MW`、`unit_mw: 15`；台数来源未披露（按 495MW/15MW 推算约 33 台，属推算，故 `turbine_count` 仍留空）。此前这三项为空，已回填。
+
+整机已锁定，`opportunity: 低` 维持；本条价值是作为台湾第三阶段竞品机型基准。待办「查证整机品牌与机型」已完成。
+
+来源：<https://www.renews.biz/offshore-wind/vestas-delivers-first-v236-hub-in-taiwan/>
