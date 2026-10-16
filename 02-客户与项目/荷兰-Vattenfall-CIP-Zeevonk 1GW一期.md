@@ -20,8 +20,16 @@ source_url: "https://www.renews.biz/uncategorized/eew-wins-zeevonk-foundations-c
 manual: false
 publish: true
 first_logged: 2026-09-17
-updated: 2026-09-17
+updated: 2026-10-16
 ---
+
+**2026-10-16 更新（信息日 2026-10-15）：风机运输安装合同授予 DEME；项目仍待 FID。** 以下既有内容全部保留。
+
+- DEME 将为一期 **69 台风机**做运输与安装，船为 Norse Energi（3200 吨起重机，水深至 70 米），2028 年起动员，一期 2029 年投运。
+- **来源仍未披露风机供应商与机型**，`oem` 继续留空。
+- **口径并列：** 既有笔记依据基础已定标，推断"整机大概率已锁但未公开"；本条来源则称项目**仍需最终投资决定**。两者不矛盾（整机可在 FID 前签优先供货），但"FID 前整机可能仍有变数"的可能性不能排除。`opportunity` 暂维持「低」，不据此上调。
+- **待办补充：** 本周内查 DEME 新闻稿原文（是否点名风机商）；若点名则补 `oem`，若明说整机未定则上调为「高」并建 P0。
+- 来源：<https://www.offshorewind.biz/2026/10/15/deme-to-install-wind-turbines-at-vattenfall-and-cips-1-gw-dutch-offshore-wind-farm>
 
 ## 项目简介
 

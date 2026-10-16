@@ -20,8 +20,15 @@ source_url: "https://www.offshorewind.biz/2026/08/25/victoria-govt-launches-aust
 manual: false
 publish: true
 first_logged: 2026-08-26
-updated: 2026-09-22
+updated: 2026-10-16
 ---
+
+> **2026-10-16 更新（信息日 2026-10-15）：输电开发合作方已选定。** 以下既有内容全部保留。
+>
+> VicGrid 选定 **Acciona** 为约 60 公里 500kV 双回线（Giffard 终端站至 Loy Yang 开关站）的**优选开发伙伴**（开发阶段安排，非施工授标），开发阶段后递交最终报价；线路预计 **2031 年**完工，仍需 EES 与联邦/州批准。竞争者为 Iberdrola 牵头联合体与 AusNet 牵头联合体。合同金额未披露，来源未涉及风机采购。
+>
+> **字段不变：** `status`「招标中」、`oem` 留空、`opportunity`「高」。9 月更新段提出的"输电开发合作方 2026 年内确定"已兑现，**线路 2031 年投运**对投标人的并网时点形成约束；待办中"接触输电合作方摸清真实时间表"可改为接触 Acciona 开发团队。
+> 来源：<https://www.offshorewind.biz/2026/10/15/acciona-selected-for-victorias-2-gw-offshore-wind-transmission-project>
 
 > **🟢 2026-09-22 更新（信息日 2026-09-21）：并网侧先于开发商遴选定线完成。以下既有内容全部保留不改，本段为增量。**
 >
