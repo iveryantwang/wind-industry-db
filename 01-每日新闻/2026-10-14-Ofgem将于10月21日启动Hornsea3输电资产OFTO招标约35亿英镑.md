@@ -23,3 +23,7 @@ created: 2026-10-15
 ## 对我方
 
 整机已定（Siemens Gamesa），无直接机会。作为英国海上大型项目已进入输电资产转让阶段的节点信息，对 [[P1-英国Morgan开发商招标跟踪]] 等英国海上跟踪项无状态变化。
+
+---
+
+**2026-10-21 更新：** Ofgem 已于 10-21 正式启动第 14 轮 OFTO 招标，称为其迄今最大的海上输电招标，资产价值约 £3.5bn；中标方获最长 25 年、与通胀挂钩的可用性收入；Hornsea 3 预计 2027 年底前完工。该文未给出投标截止与授标时间表。来源：<https://www.renews.biz/offshore-wind/ofgem-launches-3-5bn-hornsea-3-ofto-tender/>

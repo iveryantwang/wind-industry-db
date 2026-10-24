@@ -60,3 +60,7 @@ created: 2026-08-13
 ---
 
 **2026-10-15 更新（覆盖 2026-10-14 信息）：** 机制扩展到已建成项目。10-09 美国司法部与内政部在华盛顿特区联邦地区法院请求就 Revolution Wind 704MW 的 COP 核准作发回重审的简易判决，该项目 3 月已送电、9 月装完最后一台风机。详见 [[2026-10-14-美国司法部请求法院发回重审RevolutionWind核准]]。来源：<https://www.offshorewind.biz/2026/10/14/trump-administration-seeks-remand-of-cop-approval-for-offshore-wind-farm-now-in-final-commissioning-stage>
+
+---
+
+**2026-10-21 更新（覆盖 2026-10-21 信息）：** 机制再扩展到 US Wind 马里兰最高 2.2GW 项目：内政部律师 10-13 向马里兰联邦地区法院提交发回动议，理由是核准未充分解释「中到重度不利影响」与法定要求的一致性；US Wind 2025-12 阻止该审查的尝试已败诉。详见 [[2026-10-21-美国政府再度请求发回重审USWind马里兰2.2GW核准]]。来源：<https://www.renews.biz/offshore-wind/us-feds-renew-us-wind-permit-attack/>

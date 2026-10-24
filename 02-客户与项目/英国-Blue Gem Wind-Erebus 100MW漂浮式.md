@@ -20,7 +20,7 @@ manual: false
 publish: true
 source_url: "https://www.renews.biz/offshore-wind/fow26-erebus-opens-celtic-sea-supply-chain-engagement/"
 first_logged: 2026-10-08
-updated: 2026-10-08
+updated: 2026-10-23
 ---
 
 ## 项目简介
@@ -44,3 +44,5 @@ updated: 2026-10-08
 ## 关联
 
 [[2026-10-07-Blue Gem开启Erebus 100MW漂浮式风电供应链采购]] · [[P1-凯尔特海漂浮式1.73GW市场包统一打法]]
+
+**2026-10-22 更新：**Blue Gem Wind 在彭布罗克郡的利益相关方活动上发布 Erebus 采购策略，邀请威尔士企业登记意向；机会领域含制造与加工、港口、船舶服务、工程、电气设施及运维，预计带来约 700 个直接、800 个间接岗位，建设计划在「本十年末」。**来源未涉及风机供货、浮体、具体采购包或招标日期，整机状态仍为未公开**，`opportunity` 维持「中」；10-31 前登记供应链门户的待办不变。来源：[reNews](https://www.renews.biz/offshore-wind/blue-gem-wind-launches-erebus-procurement-strategy/)。

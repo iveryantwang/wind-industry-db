@@ -20,7 +20,7 @@ source_url: "https://www.renews.biz/onshore-wind/mercury-unleashes-155mw-nz-wind
 manual: false
 publish: true
 first_logged: 2026-09-10
-updated: 2026-09-10
+updated: 2026-10-23
 ---
 
 ## 项目简介
@@ -84,3 +84,5 @@ updated: 2026-09-10
 - [[企业PPA替代公用事业PPA的风险]]
 - [[澳大利亚-Neoen-Narrogin 179MW]]
 - [[P2-澳大利亚陆上开发商名单缺口]]
+
+**2026-10-22 更新：**Mercury 的另一标的 Puke Kapo Hau 于 2026-10-22 公布 Nordex 正式订单（192MW、40 台 N133/4.8、30 年服务协议），本条市场格局表中「准备开工」的口径更新为「订单已签」，见 [[新西兰-Mercury-Puke Kapo Hau 192MW]]、[[Nordex-新西兰Puke Kapo Hau 192MW订单]]。来源：[Windpower Monthly](https://www.windpowermonthly.com/article/1973178/nordex-enters-new-zealand-192mw-wind-turbine-order)。

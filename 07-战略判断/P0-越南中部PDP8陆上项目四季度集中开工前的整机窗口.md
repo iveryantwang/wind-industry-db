@@ -14,7 +14,7 @@ status: 待启动
 manual: false
 publish: true
 created: 2026-10-08
-updated: 2026-10-08
+updated: 2026-10-22
 source_name: "PR Newswire（Vestas）/ Báo Đầu tư"
 source_url: "https://baodautu.vn/gia-lai-co-39-du-an-nang-luong-tai-tao-se-khoi-cong-tap-trung-trong-thang-102026-d612912.html"
 ---
@@ -42,3 +42,7 @@ source_url: "https://baodautu.vn/gia-lai-co-39-du-an-nang-luong-tai-tao-se-khoi-
 ## 关联
 
 [[Vestas-越南中部两座PDP8风场16台V163订单]] · [[越南陆上低风速155米轮毂与V163大叶轮的PDP8机型基准]] · [[P1-越南广治省400MW双标的整机窗口]] · [[越南-过渡期风光项目电价框架重议]] · [[P1-五国每日复核台账]]
+
+---
+
+**2026-10-22 更新（覆盖 10-20、10-21 信息）：** Vestas 10-20 再公告越南一笔 27MW（6×V163-4.5MW）订单，客户与省份未披露，2027 年底交付，见 [[Vestas-越南27MW未披露项目6台V163订单]]。窗口 11-05 距今 14 天，仍成立；待办新增：核对该单是否出自嘉莱省 Q4 开工清单。来源：<https://www.renews.biz/onshore-wind/vestas-bags-vietnam-order/>
