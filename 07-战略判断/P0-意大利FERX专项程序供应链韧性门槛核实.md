@@ -137,3 +137,8 @@ FER X 对 **>1MW 的光伏与风电各设"专项程序（dedicated procedures）
 ---
 
 **2026-10-10 更新：窗口复核 —— 仍成立，且倒计时变清晰。**据 Edilportale 10-09 报道，GSE 意向书窗口 **10-22 开启（12 天后）→ 11-06 截止（27 天后，不可延期）**，预资格最迟 **11-30** 取得。书面结论（我方能否进入 NZIA 专项 750MW 风电）仍须在 11-06 之前给出——否则无法对开发商做可信承诺。本条 `deadline`、`status` 不变（待启动），**至今库内无执行记录，建议 Zhenyu 本周指定法务负责人**。来源：[Edilportale](https://www.edilportale.com/news/2026/10/risparmio-energetico/fer-x-definitivo-prima-procedura-per-le-rinnovabili_112196_27.html)。
+
+
+---
+
+**2026-10-28 更新：窗口复核 —— 仍成立，距 11-06 意向书/临时保证金截止剩 9 天。**GSE 门户按时间表已于 10-22 开放意向书；二次来源（[ecoblog 10-16](https://www.ecoblog.it/2026/10/16/fer-x-asta-manifestazioni-interesse-ottobre/)、[ingsrl 10-16](https://www.ingsrl.it/fer-x-definitivo-cauzioni-provvisorie-entro-il-6-novembre/)）确认 10-22→11-06 12:00（硬截止）、预资格 11-30、首场拍卖 12-07，与上文口径一致，无冲突。两篇文章均未列风电配额明细（以第 93 号令 1.5GW + NZIA 750MW 为准）。`status` 仍为待启动，库内至今无执行记录：**建议 Zhenyu 今日指定法务负责人，否则 11-06 前无法对开发商给出可信承诺。**
