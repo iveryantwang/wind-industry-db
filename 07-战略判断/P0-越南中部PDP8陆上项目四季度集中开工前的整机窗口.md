@@ -14,7 +14,7 @@ status: 待启动
 manual: false
 publish: true
 created: 2026-10-08
-updated: 2026-10-22
+updated: 2026-11-05
 source_name: "PR Newswire（Vestas）/ Báo Đầu tư"
 source_url: "https://baodautu.vn/gia-lai-co-39-du-an-nang-luong-tai-tao-se-khoi-cong-tap-trung-trong-thang-102026-d612912.html"
 ---
@@ -46,3 +46,12 @@ source_url: "https://baodautu.vn/gia-lai-co-39-du-an-nang-luong-tai-tao-se-khoi-
 ---
 
 **2026-10-22 更新（覆盖 10-20、10-21 信息）：** Vestas 10-20 再公告越南一笔 27MW（6×V163-4.5MW）订单，客户与省份未披露，2027 年底交付，见 [[Vestas-越南27MW未披露项目6台V163订单]]。窗口 11-05 距今 14 天，仍成立；待办新增：核对该单是否出自嘉莱省 Q4 开工清单。来源：<https://www.renews.biz/onshore-wind/vestas-bags-vietnam-order/>
+
+---
+
+**2026-11-05 补充：嘉莱省又一个 11 月开工项目，整机高度疑似远景**
+
+[[越南-Tai Tam集团-Ia Blu 1风电二期42MW]]：Tai Tam 联合体，42MW，计划 2026-11 开工，整机未公开。Tai Tam 在广治的存量项目用的是远景 EN141-3.3MW，市场传闻已与远景签约，但没有公开来源。容量低于本条 ≥100MW 的筛选线，**不改本条的标的清单**。值得记的是这个模式：**越南中部本土开发商倾向沿用存量风场的整机商。** 本条筛出的 ≥100MW 项目逐个确认整机时，应先查业主存量风场用的是谁家的机组。
+
+本条 `deadline` 为今日（11-05），`status` 仍为 `待启动`，请 Zhenyu 决定结案或顺延。
+
