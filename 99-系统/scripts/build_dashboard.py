@@ -184,6 +184,17 @@ FIELD_LABEL = {
     "oem_state": "整机",
 }
 
+# 整机厂商固定名单：筛选下拉框总是列出这些厂商，即使库里暂时没有对应记录。
+# 这两个字段按「包含」匹配，所以 "远景能源 / 三一重能" 这类合写值也能被筛到。
+# 新增竞对时改这里，并同步 99-系统/每日更新指令.md 的竞对名单。
+OEM_NAMES = [
+    "金风科技", "远景能源", "明阳智能", "运达股份",
+    "电气风电", "三一重能", "中车株洲所", "东方风电", "中船海装",
+    "Vestas", "Siemens Gamesa", "Nordex", "GE Vernova", "Enercon", "Suzlon",
+]
+PRESET_FACET_VALUES = {"oem": OEM_NAMES, "competitor": OEM_NAMES}
+CONTAINS_FACETS = ["oem", "competitor"]
+
 # 派生字段：不存在于 YAML，由脚本算出来，只用于筛选
 DERIVED = {
     # 对整机厂来说最该用的一个筛选：这个项目的整机到底定没定
@@ -259,6 +270,8 @@ def build_payload(notes, include_internal):
             for field in spec["facets"]:
                 if field in DERIVED:
                     row[field] = DERIVED[field](n)
+                elif field not in row:      # 筛选字段不在表格列里（如竞对表的 competitor）也要带上
+                    row[field] = flat(n.get(field))
             # 搜索索引：所有列 + 标题 + 摘要/描述，全部小写
             hay = [label, base]
             hay += [str(v) for k, v in row.items() if not k.startswith("_")]
@@ -281,6 +294,10 @@ def build_payload(notes, include_internal):
         facets = []
         for f in spec["facets"]:
             vals = sorted({flat(r.get(f)) for r in rows if flat(r.get(f))})
+            if f in PRESET_FACET_VALUES:
+                # 固定名单在前（即使库里暂时没有记录也显示），其余数据值按字母序跟在后面
+                preset = PRESET_FACET_VALUES[f]
+                vals = preset + [v for v in vals if v not in preset]
             if len(vals) > 1:
                 facets.append({"field": f, "label": FIELD_LABEL.get(f, f), "values": vals})
 
@@ -447,6 +464,7 @@ footer code{background:var(--line2);padding:1px 5px;border-radius:4px;font-size:
 
 JS = r"""
 const DATA = __DATA__;
+const CONTAINS_FACETS = __CONTAINS__;
 const TONE = __TONE__;
 const $ = (s, r) => (r || document).querySelector(s);
 const esc = s => String(s == null ? "" : s)
@@ -471,7 +489,9 @@ function visible(sec){
   const st = state[sec.key], ts = terms();
   return sec.rows.filter(r => {
     for (const f in st.filters){
-      if (st.filters[f] && r[f] !== st.filters[f]) return false;
+      if (st.filters[f] && (CONTAINS_FACETS.includes(f)
+            ? !String(r[f]||"").includes(st.filters[f])
+            : r[f] !== st.filters[f])) return false;
     }
     return matchQ(r, ts);
   });
@@ -702,7 +722,8 @@ def main():
     sections = build_payload(notes, include_internal)
     stats = build_stats([n for n in notes if not is_draft(n)])
 
-    js = (JS.replace("__DATA__", json.dumps(sections, ensure_ascii=False, separators=(",", ":")))
+    js = (JS.replace("__CONTAINS__", json.dumps(CONTAINS_FACETS))
+            .replace("__DATA__", json.dumps(sections, ensure_ascii=False, separators=(",", ":")))
             .replace("__TONE__", json.dumps(TAG_TONE, ensure_ascii=False)))
 
     page = PAGE.format(
