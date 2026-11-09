@@ -30,6 +30,7 @@ import datetime
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from rebuild_tables import read_notes, find_vault  # noqa: E402  复用同一套解析逻辑
+import globe  # noqa: E402  首页 3D 地球仪
 
 # ---------------------------------------------------------------- 板块定义
 # key      : 内部标识，也用作 Tab 的 DOM id
@@ -661,6 +662,8 @@ PAGE = """<!DOCTYPE html>
 
 <div class="stats">{stats}</div>
 
+{globe_html}
+
 <div class="tabs" id="tabs" role="tablist"></div>
 
 <div class="panel">
@@ -721,6 +724,7 @@ def main():
     drafts = [n for n in notes if is_draft(n)]
     sections = build_payload(notes, include_internal)
     stats = build_stats([n for n in notes if not is_draft(n)])
+    gpts = globe.build_globe_points([n for n in notes if not is_draft(n)], slugify, flat, num_or_none)
 
     js = (JS.replace("__CONTAINS__", json.dumps(CONTAINS_FACETS))
             .replace("__DATA__", json.dumps(sections, ensure_ascii=False, separators=(",", ":")))
@@ -730,9 +734,10 @@ def main():
         title="全球风电行业数据库",
         updated=datetime.date.today().isoformat(),
         robots="index,follow" if not include_internal else "noindex,nofollow",
-        css=CSS,
+        css=CSS + globe.GLOBE_CSS,
         stats=render_stats(stats),
-        js=js,
+        globe_html=globe.GLOBE_HTML,
+        js=js + globe.globe_js(gpts),
     )
 
     out_dir = os.path.dirname(os.path.abspath(out_path))
