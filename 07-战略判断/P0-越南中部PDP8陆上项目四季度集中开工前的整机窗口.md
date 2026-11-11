@@ -14,7 +14,7 @@ status: 待启动
 manual: false
 publish: true
 created: 2026-10-08
-updated: 2026-11-05
+updated: 2026-11-11
 source_name: "PR Newswire（Vestas）/ Báo Đầu tư"
 source_url: "https://baodautu.vn/gia-lai-co-39-du-an-nang-luong-tai-tao-se-khoi-cong-tap-trung-trong-thang-102026-d612912.html"
 ---
@@ -55,3 +55,12 @@ source_url: "https://baodautu.vn/gia-lai-co-39-du-an-nang-luong-tai-tao-se-khoi-
 
 本条 `deadline` 为今日（11-05），`status` 仍为 `待启动`，请 Zhenyu 决定结案或顺延。
 
+
+
+---
+
+**2026-11-11 更新：清单中的 Vân Canh 2（180MW）已于 11-07 开工，窗口仍成立**
+
+- 西贡–北江工业区（项目公司 Vững Bền，Kinh Bắc 集团体系）11-07 在嘉莱省举行 **Vân Canh 2 180MW** 开工仪式，投资约 VND 7.771 万亿；整机、EPC 均未披露；并网口径分歧（省方 2028 年 / 投资方 2027 年底）。同一业主的 **Vân Canh 1 160MW** 随后开工。来源：[Vietnam+](https://www.vietnamplus.vn/gia-lai-khoi-cong-nha-may-dien-gio-van-canh-2-cong-suat-180mw-post1146791.vnp)
+- 新建 [[越南-西贡北江工业区-Vân Canh 2风电180MW]]（`中`，已开工、整机未公开）与 [[越南-西贡北江工业区-Vân Canh 1风电160MW]]（`高`，整机未定）
+- 这说明本条的判断（Q4 开工潮带来 4 周内整机定标）正在兑现。本条 `deadline` 11-05 已过、`status` 仍为 `待启动`，但窗口**没有关闭**：Vân Canh 1+2 合计 360MW 是目前清单里最具体的标的。**建议 Zhenyu 把 deadline 顺延至 2026-12-05，并把行动聚焦为「向西贡–北江工业区递交 Vân Canh 1+2 360MW 打包方案」。** 本次未擅自改 `deadline` 与 `status`，待人工决定。
