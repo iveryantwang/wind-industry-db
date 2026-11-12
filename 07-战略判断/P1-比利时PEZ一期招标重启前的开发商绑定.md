@@ -13,7 +13,7 @@ status: "待启动"
 manual: false
 publish: true
 created: 2026-08-06
-updated: 2026-10-08
+updated: 2026-11-12
 ---
 
 **2026-10-08 复核（补跑 09-30 → 10-07）：原 deadline 2026-09-30 已过，库内无执行记录；判断依据未被新信息推翻 → deadline 顺延至 2026-10-31，状态维持。请 Zhenyu 确认结案或执行。**
@@ -56,3 +56,5 @@ updated: 2026-10-08
 - 经济性：[[比利时PEZ取消价格上限与统一CfD机制]]
 - 同类打法：[[P1-荷兰Gamma招标标前绑定投标联合体]] · [[P1-丹麦NordsoenSyd投标窗口联合体卡位]]
 - 准入风险：[[产能出海的市场准入前置条件]] · [[P2-中国同行产能出海与地缘准入风险]]
+
+**2026-11-12 更新：** 欧委会 11-11 批准 20.4 亿欧元 CfD，招标「近期」重启、结果 2027Q4；预资格 NZIA 条款要求投标人减少非欧洲风机进口。本条「先判读 NZIA 门槛」的问题已有答案方向：**对非欧洲整机构成实质障碍**。deadline 10-31 已过、库内无执行记录，本次未改 `status`/`deadline`；建议 Zhenyu 二选一：① 有欧洲本地制造/组装方案 → 顺延至 2026-12-15 并立即启动开发商接触；② 无 → 改 `已放弃`。来源：[offshoreWIND.biz](https://www.offshorewind.biz/2026/11/11/belgium-to-relaunch-first-princess-elisabeth-offshore-wind-farm-tender-as-eu-commission-approves-eur-204-billion-cfd-scheme)

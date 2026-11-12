@@ -20,7 +20,7 @@ source_url: "https://www.rwe.com/en/press/rwe-offshore-wind-gmbh/2026-03-10-rwe-
 manual: false
 publish: true
 first_logged: 2026-07-28
-updated: 2026-07-28
+updated: 2026-11-12
 ---
 
 ## 整机采购状态
@@ -36,3 +36,9 @@ updated: 2026-07-28
 **与本项目的关系：** 本项目 92 台机组同为 V236-15.0MW。RCA 结论出来前无法判断是否涉及平台性问题，但**这是本项目在建/交付期的一个新增外部风险变量**，也是我方在 RWE 后续标的上重新接触的一个自然由头 —— 切入点应是「大叶片可靠性验证方法」的技术交流，不是攻击竞品。
 
 详见 [[Vestas-2026Q2订单2.78GW]]。
+
+---
+
+**2026-11-12 更新 —— 2026-11-11 融资关闭：**
+
+RWE 与 KKR（50:50 合资）宣布 Vanguard West 与 Vanguard East 合计 2.8GW 达成融资关闭：111 亿英镑现金贷款 + 17 亿英镑辅助授信，35 家国际银行参与（含国家财富基金 10 亿英镑），Euler Hermes 与 EIFO 提供信用保险；总投资约 120 亿英镑（含输电）。AR7 20 年 CfD，执行价 91.20 英镑/MWh（2024 价格）。2027 年初海上施工，2027 上半年 Vanguard West 首根基础，2030 年全容量投运。整机维持 Vestas V236-15MW，每项目 92 台。来源：[offshoreWIND.biz 2026-11-11](https://www.offshorewind.biz/2026/11/11/rwe-and-kkr-reach-financial-close-for-28-gw-uk-offshore-wind-projects) · 详见 [[英国-RWE-KKR Vanguard东西海上风电2.8GW融资关闭]]
